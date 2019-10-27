@@ -1,13 +1,28 @@
 #include "interpreter.h"
 #include <fstream>
 
-Interpreter::Interpreter (){
-	mem = nullptr;
-	pc =0;
+Interpreter::Interpreter (char* filename){
+    pc = 0;
+
+    // create input file stream
+    std::ifstream infile;
+    char var;
+
+    // Open the file
+    infile.open(filename, std::ios::binary);
+    if (!infile.is_open()) {
+        return;
+    }
+
+    // read input file
+    while (!infile.eof()){
+        infile.read(&var, sizeof(char));
+        memory.push_back();
+    }
+    infile.close();
 }
 
 Interpreter::~Interpreter(){
-    delete[] mem;
 }
 
 void Interpreter::createMem(char* filename) {

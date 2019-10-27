@@ -14,8 +14,6 @@ public:
     virtual short getShort() = 0;
     virtual int getInt() = 0;
     virtual float getFloat() = 0;
-
-    friend std::ostream& operator << (std::ostream&, const Memory&);
 };
 
 
