@@ -16,8 +16,8 @@ int Fpstack::getTop() {
 }
 
 void Fpstack::push(int item) {
-    stack.push_back(item);
     fpsp++;
+    stack.push_back(item);
 }
 
 void Fpstack::pop() {
