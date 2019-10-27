@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hojoungjang/CLionProjects/CppProjectInterpreter/fpstack.cpp
+fpstack.h
+/Users/hojoungjang/CLionProjects/CppProjectInterpreter/fpstack.h
+
+/Users/hojoungjang/CLionProjects/CppProjectInterpreter/fpstack.h
+vector
+-
+
+/Users/hojoungjang/CLionProjects/CppProjectInterpreter/interpreter.cpp
+interpreter.h
+/Users/hojoungjang/CLionProjects/CppProjectInterpreter/interpreter.h
+fstream
+-
+
+/Users/hojoungjang/CLionProjects/CppProjectInterpreter/interpreter.h
+
+/Users/hojoungjang/CLionProjects/CppProjectInterpreter/main.cpp
+interpreter.h
+/Users/hojoungjang/CLionProjects/CppProjectInterpreter/interpreter.h
+
+/Users/hojoungjang/CLionProjects/CppProjectInterpreter/rstack.cpp
+rstack.h
+/Users/hojoungjang/CLionProjects/CppProjectInterpreter/rstack.h
+
+/Users/hojoungjang/CLionProjects/CppProjectInterpreter/rstack.h
+vector
+-
+
