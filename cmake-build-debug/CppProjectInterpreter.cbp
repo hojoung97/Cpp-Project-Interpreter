@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/bytecode.cpp">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/bytecode.h">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/fpstack.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
@@ -97,10 +103,28 @@
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/main.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/memory.cpp">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/memory.h">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/rstack.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/rstack.h">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/runTimeStack.cpp">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/runTimeStack.h">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/value.cpp">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/value.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/CMakeLists.txt">

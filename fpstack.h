@@ -13,6 +13,11 @@ public:
 	Fpstack();
 	virtual ~Fpstack();
 
+	int getFpsp();
+	int getTop();
+	void push(int);
+	void pop();
+
 };
 
 

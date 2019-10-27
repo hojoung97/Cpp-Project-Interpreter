@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o"
   "CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.o"
   "CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o"
   "CMakeFiles/CppProjectInterpreter.dir/main.cpp.o"
+  "CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o"
   "CMakeFiles/CppProjectInterpreter.dir/rstack.cpp.o"
+  "CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o"
+  "CMakeFiles/CppProjectInterpreter.dir/value.cpp.o"
   "CppProjectInterpreter"
   "CppProjectInterpreter.pdb"
 )

@@ -123,6 +123,33 @@ CppProjectInterpreter/fast:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/build
 .PHONY : CppProjectInterpreter/fast
 
+bytecode.o: bytecode.cpp.o
+
+.PHONY : bytecode.o
+
+# target to build an object file
+bytecode.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o
+.PHONY : bytecode.cpp.o
+
+bytecode.i: bytecode.cpp.i
+
+.PHONY : bytecode.i
+
+# target to preprocess a source file
+bytecode.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.i
+.PHONY : bytecode.cpp.i
+
+bytecode.s: bytecode.cpp.s
+
+.PHONY : bytecode.s
+
+# target to generate assembly for a file
+bytecode.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.s
+.PHONY : bytecode.cpp.s
+
 fpstack.o: fpstack.cpp.o
 
 .PHONY : fpstack.o
@@ -204,6 +231,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+memory.o: memory.cpp.o
+
+.PHONY : memory.o
+
+# target to build an object file
+memory.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o
+.PHONY : memory.cpp.o
+
+memory.i: memory.cpp.i
+
+.PHONY : memory.i
+
+# target to preprocess a source file
+memory.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/memory.cpp.i
+.PHONY : memory.cpp.i
+
+memory.s: memory.cpp.s
+
+.PHONY : memory.s
+
+# target to generate assembly for a file
+memory.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/memory.cpp.s
+.PHONY : memory.cpp.s
+
 rstack.o: rstack.cpp.o
 
 .PHONY : rstack.o
@@ -231,6 +285,60 @@ rstack.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/rstack.cpp.s
 .PHONY : rstack.cpp.s
 
+runTimeStack.o: runTimeStack.cpp.o
+
+.PHONY : runTimeStack.o
+
+# target to build an object file
+runTimeStack.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o
+.PHONY : runTimeStack.cpp.o
+
+runTimeStack.i: runTimeStack.cpp.i
+
+.PHONY : runTimeStack.i
+
+# target to preprocess a source file
+runTimeStack.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.i
+.PHONY : runTimeStack.cpp.i
+
+runTimeStack.s: runTimeStack.cpp.s
+
+.PHONY : runTimeStack.s
+
+# target to generate assembly for a file
+runTimeStack.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.s
+.PHONY : runTimeStack.cpp.s
+
+value.o: value.cpp.o
+
+.PHONY : value.o
+
+# target to build an object file
+value.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/value.cpp.o
+.PHONY : value.cpp.o
+
+value.i: value.cpp.i
+
+.PHONY : value.i
+
+# target to preprocess a source file
+value.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/value.cpp.i
+.PHONY : value.cpp.i
+
+value.s: value.cpp.s
+
+.PHONY : value.s
+
+# target to generate assembly for a file
+value.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/value.cpp.s
+.PHONY : value.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,6 +348,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppProjectInterpreter"
+	@echo "... bytecode.o"
+	@echo "... bytecode.i"
+	@echo "... bytecode.s"
 	@echo "... fpstack.o"
 	@echo "... fpstack.i"
 	@echo "... fpstack.s"
@@ -249,9 +360,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... memory.o"
+	@echo "... memory.i"
+	@echo "... memory.s"
 	@echo "... rstack.o"
 	@echo "... rstack.i"
 	@echo "... rstack.s"
+	@echo "... runTimeStack.o"
+	@echo "... runTimeStack.i"
+	@echo "... runTimeStack.s"
+	@echo "... value.o"
+	@echo "... value.i"
+	@echo "... value.s"
 .PHONY : help
 
 
