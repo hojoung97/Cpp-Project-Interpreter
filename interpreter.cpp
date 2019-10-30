@@ -9,13 +9,21 @@
 #include "pushc.h"
 
 #include <fstream>
+#include <map>
 
 int Interpreter::pc = 0;
 Interpreter::Interpreter (char* filename){
     // size of memory
-    size = 0;
+    memSize = 0;
     sp = -1;
     fpsp = -1;
+
+    // Create Instruction Map
+    typedef void (*InstPtr)(void);
+    typedef std::map<std::string, InstPtr> InstMap;
+
+    InstMap instMap;
+    instMap.insert(std::pair <short, InstPtr> (132, Cmpe() ));
 
     // create input file stream
     std::ifstream infile;
@@ -29,7 +37,7 @@ Interpreter::Interpreter (char* filename){
 
     // read input file
     while (!infile.eof()){
-        size++;
+        memSize++;
         infile.read(&var, sizeof(char));
 
         if ((short)var == 132) {
@@ -56,3 +64,4 @@ Interpreter::Interpreter (char* filename){
 
 Interpreter::~Interpreter(){
 }
+

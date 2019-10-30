@@ -6,12 +6,13 @@
 #define CPPPROJECTINTERPRETER_CMPE_H
 
 #include "bytecode.h"
-#include "runTimeStack.h"
-#include "fpstack.h"
+#include "interpreter.h"
 
 class Cmpe : public Bytecode{
 public:
-    void execute(Fpstack *fpStack, RunTimeStack *rStack);
+    Cmpe();
+    virtual ~Cmpe();
+    void execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_CMPE_H

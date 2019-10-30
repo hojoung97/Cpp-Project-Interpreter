@@ -10,4 +10,5 @@ add_executable(CppProjectInterpreter main.cpp
         bytecode.cpp bytecode.h
         runTimeStack.cpp runTimeStack.h
         value.cpp value.h
+        cmpe.h cmpe.cpp
         )

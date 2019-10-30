@@ -150,6 +150,33 @@ bytecode.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.s
 .PHONY : bytecode.cpp.s
 
+cmpe.o: cmpe.cpp.o
+
+.PHONY : cmpe.o
+
+# target to build an object file
+cmpe.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o
+.PHONY : cmpe.cpp.o
+
+cmpe.i: cmpe.cpp.i
+
+.PHONY : cmpe.i
+
+# target to preprocess a source file
+cmpe.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.i
+.PHONY : cmpe.cpp.i
+
+cmpe.s: cmpe.cpp.s
+
+.PHONY : cmpe.s
+
+# target to generate assembly for a file
+cmpe.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.s
+.PHONY : cmpe.cpp.s
+
 fpstack.o: fpstack.cpp.o
 
 .PHONY : fpstack.o
@@ -324,6 +351,9 @@ help:
 	@echo "... bytecode.o"
 	@echo "... bytecode.i"
 	@echo "... bytecode.s"
+	@echo "... cmpe.o"
+	@echo "... cmpe.i"
+	@echo "... cmpe.s"
 	@echo "... fpstack.o"
 	@echo "... fpstack.i"
 	@echo "... fpstack.s"

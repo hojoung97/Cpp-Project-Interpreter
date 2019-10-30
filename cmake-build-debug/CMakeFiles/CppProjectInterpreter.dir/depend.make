@@ -5,16 +5,41 @@ CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o: ../bytecode.cpp
 CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o: ../bytecode.h
 CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o: ../memory.h
 
+CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o: ../bytecode.h
+CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o: ../cmpe.cpp
+CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o: ../cmpe.h
+CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o: ../fpstack.h
+CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o: ../interpreter.h
+CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o: ../memory.h
+CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o: ../runTimeStack.h
+CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o: ../value.h
+
 CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.o: ../fpstack.cpp
 CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.o: ../fpstack.h
 
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../Bytecode.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../bytecode.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../call.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../cmpe.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../cmpgt.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../cmplt.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../fpstack.h
 CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../interpreter.cpp
 CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../interpreter.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../jmp.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../jmpc.h
 CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../memory.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../pushc.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../ret.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../runTimeStack.h
+CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../value.h
 
+CMakeFiles/CppProjectInterpreter.dir/main.cpp.o: ../fpstack.h
 CMakeFiles/CppProjectInterpreter.dir/main.cpp.o: ../interpreter.h
 CMakeFiles/CppProjectInterpreter.dir/main.cpp.o: ../main.cpp
 CMakeFiles/CppProjectInterpreter.dir/main.cpp.o: ../memory.h
+CMakeFiles/CppProjectInterpreter.dir/main.cpp.o: ../runTimeStack.h
+CMakeFiles/CppProjectInterpreter.dir/main.cpp.o: ../value.h
 
 CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o: ../memory.cpp
 CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o: ../memory.h

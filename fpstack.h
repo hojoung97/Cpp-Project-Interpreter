@@ -5,8 +5,6 @@
 
 // frame pointer stack class
 class Fpstack {
-private:
-	std::vector<int> stack;
 
 public:
 	Fpstack();

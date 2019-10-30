@@ -9,7 +9,7 @@ Value::Value(char value) {
     shortVal = nullptr;
     intVal = nullptr;
     floatVal = nullptr;
-
+    dtype = "char";
 }
 
 Value::Value(short value) {
@@ -17,6 +17,7 @@ Value::Value(short value) {
     *shortVal = value;
     intVal = nullptr;
     floatVal = nullptr;
+    dtype = "short";
 }
 
 Value::Value(int value) {
@@ -24,6 +25,7 @@ Value::Value(int value) {
     shortVal = nullptr;
     *intVal = value;
     floatVal = nullptr;
+    dtype = "int";
 }
 
 Value::Value(float value) {
@@ -31,6 +33,7 @@ Value::Value(float value) {
     shortVal = nullptr;
     intVal = nullptr;
     *floatVal = value;
+    dtype = "float";
 }
 
 Value::~Value() {
@@ -42,29 +45,17 @@ void Value::execute() {
 }
 
 char Value::getChar() {
-    if (charVal != nullptr){
-        return *charVal;
-    }
-    return '\0';
+    return *charVal;
 }
 
 short Value::getShort() {
-    if (shortVal != nullptr){
-        return *shortVal;
-    }
-    return -1;
+    return *shortVal;
 }
 
 int Value::getInt() {
-    if (intVal != nullptr){
-        return *intVal;
-    }
-    return -1;
+    return *intVal;
 }
 
 float Value::getFloat() {
-    if (floatVal != nullptr){
-        return *floatVal;
-    }
-    return -1;
+    return *floatVal;
 }

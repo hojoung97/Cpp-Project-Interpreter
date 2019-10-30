@@ -7,24 +7,19 @@
 #include "fpstack.h"
 
 class Interpreter {
-private:
+public:
+    int memSize;       // size of memory
+    int sp;         // stack pointer
+    int fpsp;       // frame pointer stack pointer
     // Memory
     std::vector<Memory*> memory;
-    int size;
-
     // Run Time Stack
-    std::vector<RunTimeStack*> rstacks;
-    int sp;
-
+    std::vector<Value*> rstacks;
     // Frame Pointer Stack
     std::vector<Fpstack*> fpstacks;
-    int fpsp;
 
-public:
 	Interpreter(char*);
 	virtual ~Interpreter();
-
-
 
 	// Program Counter (points to memory)
     static int pc;

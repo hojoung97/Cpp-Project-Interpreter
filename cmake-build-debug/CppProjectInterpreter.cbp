@@ -88,6 +88,12 @@
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/bytecode.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmpe.cpp">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmpe.h">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/fpstack.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>

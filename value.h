@@ -9,7 +9,7 @@
 #include "memory.h"
 #include "runTimeStack.h"
 
-class Value /*: public Memory, public RunTimeStack*/{
+class Value : public Memory, public RunTimeStack{
 // the only one value will be represented
 // everything else will be null
 private:
@@ -25,6 +25,7 @@ public:
     Value(float);
     virtual ~Value();
 
+    std::string dtype;
     void execute();
     char getChar();
     short getShort();
