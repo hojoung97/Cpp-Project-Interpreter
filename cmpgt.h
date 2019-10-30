@@ -11,7 +11,9 @@
 
 class Cmpgt : public Bytecode{
 public:
-    void execute(Fpstack *fpStack, RunTimeStack *rStack);
+    Cmpgt();
+    virtual ~Cmpgt();
+    void execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_CMPGT_H

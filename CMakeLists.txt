@@ -11,6 +11,8 @@ add_executable(CppProjectInterpreter main.cpp
         runTimeStack.cpp runTimeStack.h
         value.cpp value.h
         cmpe.h cmpe.cpp
+        cmplt.h cmplt.cpp
+        cmpgt.h cmpgt.cpp
         jmp.h jmp.cpp
         call.h call.cpp
         pushc.h pushc.cpp

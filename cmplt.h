@@ -11,7 +11,9 @@
 
 class Cmplt : public Bytecode{
 public:
-    void execute(Fpstack *fpStack, RunTimeStack *rStack);
+    Cmplt();
+    virtual ~Cmplt();
+    void execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_CMPLT_H

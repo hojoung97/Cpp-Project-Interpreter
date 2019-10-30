@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o"
   "CMakeFiles/CppProjectInterpreter.dir/call.cpp.o"
   "CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o"
+  "CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.o"
+  "CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.o"
   "CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.o"
   "CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o"
   "CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o"

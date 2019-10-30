@@ -204,6 +204,60 @@ cmpe.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.s
 .PHONY : cmpe.cpp.s
 
+cmpgt.o: cmpgt.cpp.o
+
+.PHONY : cmpgt.o
+
+# target to build an object file
+cmpgt.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.o
+.PHONY : cmpgt.cpp.o
+
+cmpgt.i: cmpgt.cpp.i
+
+.PHONY : cmpgt.i
+
+# target to preprocess a source file
+cmpgt.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.i
+.PHONY : cmpgt.cpp.i
+
+cmpgt.s: cmpgt.cpp.s
+
+.PHONY : cmpgt.s
+
+# target to generate assembly for a file
+cmpgt.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.s
+.PHONY : cmpgt.cpp.s
+
+cmplt.o: cmplt.cpp.o
+
+.PHONY : cmplt.o
+
+# target to build an object file
+cmplt.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.o
+.PHONY : cmplt.cpp.o
+
+cmplt.i: cmplt.cpp.i
+
+.PHONY : cmplt.i
+
+# target to preprocess a source file
+cmplt.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.i
+.PHONY : cmplt.cpp.i
+
+cmplt.s: cmplt.cpp.s
+
+.PHONY : cmplt.s
+
+# target to generate assembly for a file
+cmplt.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.s
+.PHONY : cmplt.cpp.s
+
 fpstack.o: fpstack.cpp.o
 
 .PHONY : fpstack.o
@@ -492,6 +546,12 @@ help:
 	@echo "... cmpe.o"
 	@echo "... cmpe.i"
 	@echo "... cmpe.s"
+	@echo "... cmpgt.o"
+	@echo "... cmpgt.i"
+	@echo "... cmpgt.s"
+	@echo "... cmplt.o"
+	@echo "... cmplt.i"
+	@echo "... cmplt.s"
 	@echo "... fpstack.o"
 	@echo "... fpstack.i"
 	@echo "... fpstack.s"
