@@ -5,6 +5,17 @@
 #include "pushc.h"
 #include "interpreter.h"
 
-void Pushc :: execute(Fpstack *fpStack, RunTimeStack *rStack) {
-    rStack[++rStack->sp] =
+Pushc::Pushc() {
+
+}
+
+Pushc::~Pushc() {
+
+}
+
+void Pushc::execute(Interpreter& interpreter) {
+    // new char value
+    char newChar = static_cast<Value*>(interpreter.memory[Interpreter::pc + 1])->getChar();
+    interpreter.rstacks[++(interpreter.sp)] = new Value(newChar);
+    Interpreter::pc += 2;
 }

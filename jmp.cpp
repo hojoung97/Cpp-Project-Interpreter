@@ -5,7 +5,15 @@
 #include "jmp.h"
 #include "interpreter.h"
 
-void Jmp :: execute(Fpstack *fpStack, RunTimeStack *rStack){
-    Interpreter::pc = rStack[rStack->sp];
-    rStack->sp--;
+Jmp::Jmp() {
+
+}
+
+Jmp::~Jmp() {
+
+}
+
+void Jmp::execute(Interpreter &interpreter) {
+    Interpreter::pc = ((interpreter.rstacks)[interpreter.sp])->getInt();
+    (interpreter.sp)--;
 }

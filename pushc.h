@@ -11,7 +11,9 @@
 
 class Pushc : public Bytecode{
 public:
-    void execute(Fpstack *fpStack, RunTimeStack *rStack);
+    Pushc();
+    virtual ~Pushc();
+    void execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PUSHC_H

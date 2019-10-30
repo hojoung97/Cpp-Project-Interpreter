@@ -11,7 +11,9 @@
 
 class Jmp : public Bytecode{
 public:
-    void execute(Fpstack *fpStack, RunTimeStack *rStack);
+    Jmp();
+    virtual ~Jmp();
+    void execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_JMP_H

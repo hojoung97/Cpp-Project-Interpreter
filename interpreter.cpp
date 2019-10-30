@@ -18,13 +18,6 @@ Interpreter::Interpreter (char* filename){
     sp = -1;
     fpsp = -1;
 
-    // Create Instruction Map
-    typedef void (*InstPtr)(void);
-    typedef std::map<std::string, InstPtr> InstMap;
-
-    InstMap instMap;
-    instMap.insert(std::pair <short, InstPtr> (132, Cmpe() ));
-
     // create input file stream
     std::ifstream infile;
     char var;

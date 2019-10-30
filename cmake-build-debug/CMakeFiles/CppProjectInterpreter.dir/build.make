@@ -161,6 +161,45 @@ CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmpe.cpp -o CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.s
 
+CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
+CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o: ../jmp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o -c /Users/hojoungjang/CLionProjects/CppProjectInterpreter/jmp.cpp
+
+CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/CppProjectInterpreter/jmp.cpp > CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.i
+
+CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/CppProjectInterpreter/jmp.cpp -o CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.s
+
+CMakeFiles/CppProjectInterpreter.dir/call.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
+CMakeFiles/CppProjectInterpreter.dir/call.cpp.o: ../call.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/call.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/call.cpp.o -c /Users/hojoungjang/CLionProjects/CppProjectInterpreter/call.cpp
+
+CMakeFiles/CppProjectInterpreter.dir/call.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/call.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/CppProjectInterpreter/call.cpp > CMakeFiles/CppProjectInterpreter.dir/call.cpp.i
+
+CMakeFiles/CppProjectInterpreter.dir/call.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/call.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/CppProjectInterpreter/call.cpp -o CMakeFiles/CppProjectInterpreter.dir/call.cpp.s
+
+CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
+CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o: ../pushc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o -c /Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushc.cpp
+
+CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushc.cpp > CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.i
+
+CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushc.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s
+
 # Object files for target CppProjectInterpreter
 CppProjectInterpreter_OBJECTS = \
 "CMakeFiles/CppProjectInterpreter.dir/main.cpp.o" \
@@ -170,7 +209,10 @@ CppProjectInterpreter_OBJECTS = \
 "CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o" \
 "CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o" \
 "CMakeFiles/CppProjectInterpreter.dir/value.cpp.o" \
-"CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o"
+"CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o" \
+"CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o" \
+"CMakeFiles/CppProjectInterpreter.dir/call.cpp.o" \
+"CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o"
 
 # External object files for target CppProjectInterpreter
 CppProjectInterpreter_EXTERNAL_OBJECTS =
@@ -183,9 +225,12 @@ CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/value.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o
+CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o
+CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/call.cpp.o
+CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/build.make
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CppProjectInterpreter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable CppProjectInterpreter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CppProjectInterpreter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

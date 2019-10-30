@@ -1,8 +1,9 @@
 //
-// Created by Hojoung Jang on 10/27/19.
-//
 
 #include "bytecode.h"
+
+//
+// Created by Hojoung Jang on 10/27/19.
 
 char Bytecode::getChar() {
     std::cout << "Error: no value char in bytecode object" <<std::endl;

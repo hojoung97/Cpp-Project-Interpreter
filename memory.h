@@ -6,10 +6,10 @@
 #define CPPPROJECTINTERPRETER_MEMORY_H
 
 #include <iostream>
+#include "interpreter.h"
 
 class Memory {
 public:
-    virtual void execute() = 0;
     virtual char getChar() = 0;
     virtual short getShort() = 0;
     virtual int getInt() = 0;

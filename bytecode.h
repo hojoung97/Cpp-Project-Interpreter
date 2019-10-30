@@ -9,7 +9,7 @@
 #include "memory.h"
 
 class Bytecode : public Memory {
-    void execute() = 0;
+    virtual void execute(Interpreter&)=0;
     char getChar();
     short getShort();
     int getInt();

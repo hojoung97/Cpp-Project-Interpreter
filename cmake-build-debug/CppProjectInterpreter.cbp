@@ -88,6 +88,12 @@
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/bytecode.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/call.cpp">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/call.h">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmpe.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
@@ -106,6 +112,12 @@
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/interpreter.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/jmp.cpp">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/jmp.h">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/main.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
@@ -113,6 +125,12 @@
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/memory.h">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushc.cpp">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushc.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/runTimeStack.cpp">

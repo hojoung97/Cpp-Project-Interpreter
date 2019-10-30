@@ -8,8 +8,9 @@ class Fpstack {
 
 public:
 	Fpstack();
+	Fpstack(int);
 	virtual ~Fpstack();
-
+    int val;
 };
 
 

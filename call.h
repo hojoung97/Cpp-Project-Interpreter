@@ -11,7 +11,9 @@
 
 class Call : public Bytecode{
 public:
-    void execute(Fpstack *fpStack, RunTimeStack *rStack);
+    Call();
+    virtual ~Call();
+    void execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_CALL_H
