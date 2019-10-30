@@ -7,6 +7,8 @@
 #include "call.h"
 #include "ret.h"
 #include "pushc.h"
+#include "pushvc.h"
+#include "popm.h"
 
 #include <fstream>
 #include <map>
@@ -49,6 +51,10 @@ Interpreter::Interpreter (char* filename){
             memory.push_back(new Ret());
         } else if ((short)var == 68) {
             memory.push_back(new Pushc());
+        } else if ((short)var == 72) {
+            memory.push_back(new Pushvc());
+        } else if ((short)var == 76) {
+            memory.push_back(new Popm());
         }
 
     }

@@ -127,10 +127,22 @@
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/memory.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/popm.cpp">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/popm.h">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushc.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushc.h">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushvc.cpp">
+			<Option target="CppProjectInterpreter"/>
+		</Unit>
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushvc.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
 		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/runTimeStack.cpp">

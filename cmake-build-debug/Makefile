@@ -339,6 +339,33 @@ memory.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/memory.cpp.s
 .PHONY : memory.cpp.s
 
+popm.o: popm.cpp.o
+
+.PHONY : popm.o
+
+# target to build an object file
+popm.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o
+.PHONY : popm.cpp.o
+
+popm.i: popm.cpp.i
+
+.PHONY : popm.i
+
+# target to preprocess a source file
+popm.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/popm.cpp.i
+.PHONY : popm.cpp.i
+
+popm.s: popm.cpp.s
+
+.PHONY : popm.s
+
+# target to generate assembly for a file
+popm.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/popm.cpp.s
+.PHONY : popm.cpp.s
+
 pushc.o: pushc.cpp.o
 
 .PHONY : pushc.o
@@ -365,6 +392,33 @@ pushc.s: pushc.cpp.s
 pushc.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s
 .PHONY : pushc.cpp.s
+
+pushvc.o: pushvc.cpp.o
+
+.PHONY : pushvc.o
+
+# target to build an object file
+pushvc.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o
+.PHONY : pushvc.cpp.o
+
+pushvc.i: pushvc.cpp.i
+
+.PHONY : pushvc.i
+
+# target to preprocess a source file
+pushvc.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.i
+.PHONY : pushvc.cpp.i
+
+pushvc.s: pushvc.cpp.s
+
+.PHONY : pushvc.s
+
+# target to generate assembly for a file
+pushvc.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.s
+.PHONY : pushvc.cpp.s
 
 runTimeStack.o: runTimeStack.cpp.o
 
@@ -453,9 +507,15 @@ help:
 	@echo "... memory.o"
 	@echo "... memory.i"
 	@echo "... memory.s"
+	@echo "... popm.o"
+	@echo "... popm.i"
+	@echo "... popm.s"
 	@echo "... pushc.o"
 	@echo "... pushc.i"
 	@echo "... pushc.s"
+	@echo "... pushvc.o"
+	@echo "... pushvc.i"
+	@echo "... pushvc.s"
 	@echo "... runTimeStack.o"
 	@echo "... runTimeStack.i"
 	@echo "... runTimeStack.s"

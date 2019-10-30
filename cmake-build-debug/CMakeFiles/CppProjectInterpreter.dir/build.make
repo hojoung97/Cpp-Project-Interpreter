@@ -200,6 +200,32 @@ CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushc.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s
 
+CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
+CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o: ../pushvc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o -c /Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushvc.cpp
+
+CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushvc.cpp > CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.i
+
+CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/CppProjectInterpreter/pushvc.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.s
+
+CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
+CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o: ../popm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o -c /Users/hojoungjang/CLionProjects/CppProjectInterpreter/popm.cpp
+
+CMakeFiles/CppProjectInterpreter.dir/popm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/popm.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/CppProjectInterpreter/popm.cpp > CMakeFiles/CppProjectInterpreter.dir/popm.cpp.i
+
+CMakeFiles/CppProjectInterpreter.dir/popm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/popm.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/CppProjectInterpreter/popm.cpp -o CMakeFiles/CppProjectInterpreter.dir/popm.cpp.s
+
 # Object files for target CppProjectInterpreter
 CppProjectInterpreter_OBJECTS = \
 "CMakeFiles/CppProjectInterpreter.dir/main.cpp.o" \
@@ -212,7 +238,9 @@ CppProjectInterpreter_OBJECTS = \
 "CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o" \
 "CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o" \
 "CMakeFiles/CppProjectInterpreter.dir/call.cpp.o" \
-"CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o"
+"CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o" \
+"CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o" \
+"CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o"
 
 # External object files for target CppProjectInterpreter
 CppProjectInterpreter_EXTERNAL_OBJECTS =
@@ -228,9 +256,11 @@ CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/call.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o
+CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o
+CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/build.make
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable CppProjectInterpreter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable CppProjectInterpreter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CppProjectInterpreter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

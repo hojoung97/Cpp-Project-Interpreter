@@ -14,4 +14,4 @@ add_executable(CppProjectInterpreter main.cpp
         jmp.h jmp.cpp
         call.h call.cpp
         pushc.h pushc.cpp
-        )
+        pushvc.cpp pushvc.h popm.cpp popm.h)
