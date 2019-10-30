@@ -8,164 +8,120 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug"/>
+				<Option working_dir="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug"/>
+				<Option working_dir="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug"/>
+				<Option working_dir="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CppProjectInterpreter">
-				<Option output="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CppProjectInterpreter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug"/>
+				<Option output="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CppProjectInterpreter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppProjectInterpreter"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppProjectInterpreter"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CppProjectInterpreter/fast">
-				<Option output="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CppProjectInterpreter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug"/>
+				<Option output="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CppProjectInterpreter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppProjectInterpreter/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppProjectInterpreter/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/bytecode.cpp">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/bytecode.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/bytecode.h">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/bytecode.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/call.cpp">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/fpstack.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/call.h">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/fpstack.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmpe.cpp">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/interpreter.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmpe.h">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/interpreter.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmpgt.cpp">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/main.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmpgt.h">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/memory.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmplt.cpp">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/memory.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmplt.h">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/runTimeStack.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/fpstack.cpp">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/runTimeStack.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/fpstack.h">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/value.cpp">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/interpreter.cpp">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/value.h">
 			<Option target="CppProjectInterpreter"/>
 		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/interpreter.h">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/jmp.cpp">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/jmp.h">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/jmpc.cpp">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/jmpc.h">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/main.cpp">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/memory.cpp">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/memory.h">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushc.cpp">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushc.h">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/ret.cpp">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/ret.h">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/runTimeStack.cpp">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/runTimeStack.h">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/value.cpp">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/value.h">
-			<Option target="CppProjectInterpreter"/>
-		</Unit>
-		<Unit filename="/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/CMakeLists.txt">
+		<Unit filename="/Users/hojoungjang/CLionProjects/CppProjectInterpreter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

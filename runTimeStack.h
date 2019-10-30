@@ -10,7 +10,7 @@
 
 class RunTimeStack {
 private:
-    Value value;
+    //Value value;
 
 public:
     virtual char getChar() = 0;

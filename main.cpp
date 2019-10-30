@@ -5,8 +5,5 @@ int main (){
 
     char infile[] = "interpreter_input.smp";
 
-    Interpreter::pc = 0;
-
-    Interpreter* interpreter = new Interpreter();
-    interpreter->createMem(infile);
+    Interpreter* interpreter = new Interpreter(infile);
 }

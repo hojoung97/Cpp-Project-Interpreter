@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter
+CMAKE_SOURCE_DIR = /Users/hojoungjang/CLionProjects/CppProjectInterpreter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles /Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,114 +150,6 @@ bytecode.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.s
 .PHONY : bytecode.cpp.s
 
-call.o: call.cpp.o
-
-.PHONY : call.o
-
-# target to build an object file
-call.cpp.o:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/call.cpp.o
-.PHONY : call.cpp.o
-
-call.i: call.cpp.i
-
-.PHONY : call.i
-
-# target to preprocess a source file
-call.cpp.i:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/call.cpp.i
-.PHONY : call.cpp.i
-
-call.s: call.cpp.s
-
-.PHONY : call.s
-
-# target to generate assembly for a file
-call.cpp.s:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/call.cpp.s
-.PHONY : call.cpp.s
-
-cmpe.o: cmpe.cpp.o
-
-.PHONY : cmpe.o
-
-# target to build an object file
-cmpe.cpp.o:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o
-.PHONY : cmpe.cpp.o
-
-cmpe.i: cmpe.cpp.i
-
-.PHONY : cmpe.i
-
-# target to preprocess a source file
-cmpe.cpp.i:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.i
-.PHONY : cmpe.cpp.i
-
-cmpe.s: cmpe.cpp.s
-
-.PHONY : cmpe.s
-
-# target to generate assembly for a file
-cmpe.cpp.s:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.s
-.PHONY : cmpe.cpp.s
-
-cmpgt.o: cmpgt.cpp.o
-
-.PHONY : cmpgt.o
-
-# target to build an object file
-cmpgt.cpp.o:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.o
-.PHONY : cmpgt.cpp.o
-
-cmpgt.i: cmpgt.cpp.i
-
-.PHONY : cmpgt.i
-
-# target to preprocess a source file
-cmpgt.cpp.i:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.i
-.PHONY : cmpgt.cpp.i
-
-cmpgt.s: cmpgt.cpp.s
-
-.PHONY : cmpgt.s
-
-# target to generate assembly for a file
-cmpgt.cpp.s:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.s
-.PHONY : cmpgt.cpp.s
-
-cmplt.o: cmplt.cpp.o
-
-.PHONY : cmplt.o
-
-# target to build an object file
-cmplt.cpp.o:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.o
-.PHONY : cmplt.cpp.o
-
-cmplt.i: cmplt.cpp.i
-
-.PHONY : cmplt.i
-
-# target to preprocess a source file
-cmplt.cpp.i:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.i
-.PHONY : cmplt.cpp.i
-
-cmplt.s: cmplt.cpp.s
-
-.PHONY : cmplt.s
-
-# target to generate assembly for a file
-cmplt.cpp.s:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.s
-.PHONY : cmplt.cpp.s
-
 fpstack.o: fpstack.cpp.o
 
 .PHONY : fpstack.o
@@ -312,60 +204,6 @@ interpreter.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.s
 .PHONY : interpreter.cpp.s
 
-jmp.o: jmp.cpp.o
-
-.PHONY : jmp.o
-
-# target to build an object file
-jmp.cpp.o:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o
-.PHONY : jmp.cpp.o
-
-jmp.i: jmp.cpp.i
-
-.PHONY : jmp.i
-
-# target to preprocess a source file
-jmp.cpp.i:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.i
-.PHONY : jmp.cpp.i
-
-jmp.s: jmp.cpp.s
-
-.PHONY : jmp.s
-
-# target to generate assembly for a file
-jmp.cpp.s:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.s
-.PHONY : jmp.cpp.s
-
-jmpc.o: jmpc.cpp.o
-
-.PHONY : jmpc.o
-
-# target to build an object file
-jmpc.cpp.o:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.o
-.PHONY : jmpc.cpp.o
-
-jmpc.i: jmpc.cpp.i
-
-.PHONY : jmpc.i
-
-# target to preprocess a source file
-jmpc.cpp.i:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.i
-.PHONY : jmpc.cpp.i
-
-jmpc.s: jmpc.cpp.s
-
-.PHONY : jmpc.s
-
-# target to generate assembly for a file
-jmpc.cpp.s:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.s
-.PHONY : jmpc.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -419,60 +257,6 @@ memory.s: memory.cpp.s
 memory.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/memory.cpp.s
 .PHONY : memory.cpp.s
-
-pushc.o: pushc.cpp.o
-
-.PHONY : pushc.o
-
-# target to build an object file
-pushc.cpp.o:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o
-.PHONY : pushc.cpp.o
-
-pushc.i: pushc.cpp.i
-
-.PHONY : pushc.i
-
-# target to preprocess a source file
-pushc.cpp.i:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.i
-.PHONY : pushc.cpp.i
-
-pushc.s: pushc.cpp.s
-
-.PHONY : pushc.s
-
-# target to generate assembly for a file
-pushc.cpp.s:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s
-.PHONY : pushc.cpp.s
-
-ret.o: ret.cpp.o
-
-.PHONY : ret.o
-
-# target to build an object file
-ret.cpp.o:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/ret.cpp.o
-.PHONY : ret.cpp.o
-
-ret.i: ret.cpp.i
-
-.PHONY : ret.i
-
-# target to preprocess a source file
-ret.cpp.i:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/ret.cpp.i
-.PHONY : ret.cpp.i
-
-ret.s: ret.cpp.s
-
-.PHONY : ret.s
-
-# target to generate assembly for a file
-ret.cpp.s:
-	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/ret.cpp.s
-.PHONY : ret.cpp.s
 
 runTimeStack.o: runTimeStack.cpp.o
 
@@ -540,42 +324,18 @@ help:
 	@echo "... bytecode.o"
 	@echo "... bytecode.i"
 	@echo "... bytecode.s"
-	@echo "... call.o"
-	@echo "... call.i"
-	@echo "... call.s"
-	@echo "... cmpe.o"
-	@echo "... cmpe.i"
-	@echo "... cmpe.s"
-	@echo "... cmpgt.o"
-	@echo "... cmpgt.i"
-	@echo "... cmpgt.s"
-	@echo "... cmplt.o"
-	@echo "... cmplt.i"
-	@echo "... cmplt.s"
 	@echo "... fpstack.o"
 	@echo "... fpstack.i"
 	@echo "... fpstack.s"
 	@echo "... interpreter.o"
 	@echo "... interpreter.i"
 	@echo "... interpreter.s"
-	@echo "... jmp.o"
-	@echo "... jmp.i"
-	@echo "... jmp.s"
-	@echo "... jmpc.o"
-	@echo "... jmpc.i"
-	@echo "... jmpc.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... memory.o"
 	@echo "... memory.i"
 	@echo "... memory.s"
-	@echo "... pushc.o"
-	@echo "... pushc.i"
-	@echo "... pushc.s"
-	@echo "... ret.o"
-	@echo "... ret.i"
-	@echo "... ret.s"
 	@echo "... runTimeStack.o"
 	@echo "... runTimeStack.i"
 	@echo "... runTimeStack.s"

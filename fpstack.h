@@ -7,16 +7,10 @@
 class Fpstack {
 private:
 	std::vector<int> stack;
-	int fpsp;
 
 public:
 	Fpstack();
 	virtual ~Fpstack();
-
-	int getFpsp();
-	int getTop();
-	void push(int);
-	void pop();
 
 };
 
