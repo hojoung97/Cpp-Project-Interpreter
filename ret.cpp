@@ -5,8 +5,15 @@
 #include "ret.h"
 #include "interpreter.h"
 
-void Ret ::execute(Fpstack *fpStack, RunTimeStack *rStack) {
-    rStack->sp = fpStack->getTop();
-    fpStack->pop();
-    Interpreter::pc = rStack[rStack->sp--];
+Ret::Ret() {
+
+}
+
+Ret::~Ret() {
+
+}
+
+void Ret::execute(Interpreter &interpreter) {
+    interpreter.sp = interpreter.fpstacks[(interpreter.fpsp)--]->val;
+    Interpreter::pc = interpreter.rstacks[(interpreter.sp)--]->getInt();
 }

@@ -5,9 +5,17 @@
 #include "jmpc.h"
 #include "interpreter.h"
 
-void Jmpc :: execute(Fpstack *fpStack, RunTimeStack *rStack){
-    if(rStack[rStack->sp - 1]){
-        Interpreter::pc = rStack[rStack->sp];
+Jmpc::Jmpc() {
+
+}
+
+Jmpc::~Jmpc() {
+
+}
+
+void Jmpc::execute(Interpreter &interpreter) {
+    if (interpreter.rstacks[interpreter.sp - 1]) {
+        Interpreter::pc = interpreter.rstacks[interpreter.sp]->getInt();
     }
-    rStack->sp -= 2;
+    interpreter.sp -= 2;
 }

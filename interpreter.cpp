@@ -9,6 +9,7 @@
 #include "pushc.h"
 #include "pushvc.h"
 #include "popm.h"
+#include "pushs.h"
 
 #include <fstream>
 #include <map>
@@ -51,6 +52,10 @@ Interpreter::Interpreter (char* filename){
             memory.push_back(new Ret());
         } else if ((short)var == 68) {
             memory.push_back(new Pushc());
+        } else if ((short)var == 69) {
+            memory.push_back(new Pushs());
+        } else if ((short)var == 70) {
+            memory.push_back(new Pushi());
         } else if ((short)var == 72) {
             memory.push_back(new Pushvc());
         } else if ((short)var == 76) {

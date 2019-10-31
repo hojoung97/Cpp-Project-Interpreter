@@ -339,6 +339,33 @@ jmp.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.s
 .PHONY : jmp.cpp.s
 
+jmpc.o: jmpc.cpp.o
+
+.PHONY : jmpc.o
+
+# target to build an object file
+jmpc.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.o
+.PHONY : jmpc.cpp.o
+
+jmpc.i: jmpc.cpp.i
+
+.PHONY : jmpc.i
+
+# target to preprocess a source file
+jmpc.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.i
+.PHONY : jmpc.cpp.i
+
+jmpc.s: jmpc.cpp.s
+
+.PHONY : jmpc.s
+
+# target to generate assembly for a file
+jmpc.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.s
+.PHONY : jmpc.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -447,6 +474,33 @@ pushc.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s
 .PHONY : pushc.cpp.s
 
+pushs.o: pushs.cpp.o
+
+.PHONY : pushs.o
+
+# target to build an object file
+pushs.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.o
+.PHONY : pushs.cpp.o
+
+pushs.i: pushs.cpp.i
+
+.PHONY : pushs.i
+
+# target to preprocess a source file
+pushs.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.i
+.PHONY : pushs.cpp.i
+
+pushs.s: pushs.cpp.s
+
+.PHONY : pushs.s
+
+# target to generate assembly for a file
+pushs.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.s
+.PHONY : pushs.cpp.s
+
 pushvc.o: pushvc.cpp.o
 
 .PHONY : pushvc.o
@@ -473,6 +527,33 @@ pushvc.s: pushvc.cpp.s
 pushvc.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.s
 .PHONY : pushvc.cpp.s
+
+ret.o: ret.cpp.o
+
+.PHONY : ret.o
+
+# target to build an object file
+ret.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/ret.cpp.o
+.PHONY : ret.cpp.o
+
+ret.i: ret.cpp.i
+
+.PHONY : ret.i
+
+# target to preprocess a source file
+ret.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/ret.cpp.i
+.PHONY : ret.cpp.i
+
+ret.s: ret.cpp.s
+
+.PHONY : ret.s
+
+# target to generate assembly for a file
+ret.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/ret.cpp.s
+.PHONY : ret.cpp.s
 
 runTimeStack.o: runTimeStack.cpp.o
 
@@ -561,6 +642,9 @@ help:
 	@echo "... jmp.o"
 	@echo "... jmp.i"
 	@echo "... jmp.s"
+	@echo "... jmpc.o"
+	@echo "... jmpc.i"
+	@echo "... jmpc.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -573,9 +657,15 @@ help:
 	@echo "... pushc.o"
 	@echo "... pushc.i"
 	@echo "... pushc.s"
+	@echo "... pushs.o"
+	@echo "... pushs.i"
+	@echo "... pushs.s"
 	@echo "... pushvc.o"
 	@echo "... pushvc.i"
 	@echo "... pushvc.s"
+	@echo "... ret.o"
+	@echo "... ret.i"
+	@echo "... ret.s"
 	@echo "... runTimeStack.o"
 	@echo "... runTimeStack.i"
 	@echo "... runTimeStack.s"

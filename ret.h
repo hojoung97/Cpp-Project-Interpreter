@@ -11,7 +11,9 @@
 
 class Ret : public Bytecode{
 public:
-    void execute(Fpstack *fpStack, RunTimeStack *rStack);
+    Ret();
+    virtual ~Ret();
+    void execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_RET_H

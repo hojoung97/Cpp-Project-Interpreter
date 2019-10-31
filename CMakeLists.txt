@@ -14,6 +14,8 @@ add_executable(CppProjectInterpreter main.cpp
         cmplt.h cmplt.cpp
         cmpgt.h cmpgt.cpp
         jmp.h jmp.cpp
+        jmpc.h jmpc.cpp
         call.h call.cpp
+        ret.h ret.cpp
         pushc.h pushc.cpp
-        pushvc.cpp pushvc.h popm.cpp popm.h)
+        pushvc.cpp pushvc.h popm.cpp popm.h pushs.cpp pushs.h)

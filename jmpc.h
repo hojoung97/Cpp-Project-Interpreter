@@ -5,13 +5,15 @@
 #ifndef CPPPROJECTINTERPRETER_JMPC_H
 #define CPPPROJECTINTERPRETER_JMPC_H
 
-#include "Bytecode.h"
+#include "bytecode.h"
 #include "runTimeStack.h"
 #include "fpstack.h"
 
 class Jmpc : public Bytecode {
 public:
-    void execute(Fpstack *fpStack, RunTimeStack *rStack);
+    Jmpc();
+    virtual ~Jmpc();
+    void execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_JMPC_H
