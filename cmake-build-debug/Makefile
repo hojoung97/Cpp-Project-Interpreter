@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hojoungjang/CLionProjects/CppProjectInterpreter
+CMAKE_SOURCE_DIR = /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles /Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hojoungjang/CLionProjects/CppProjectInterpreter/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ CppProjectInterpreter: cmake_check_build_system
 CppProjectInterpreter/fast:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/build
 .PHONY : CppProjectInterpreter/fast
+
+add.o: add.cpp.o
+
+.PHONY : add.o
+
+# target to build an object file
+add.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/add.cpp.o
+.PHONY : add.cpp.o
+
+add.i: add.cpp.i
+
+.PHONY : add.i
+
+# target to preprocess a source file
+add.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/add.cpp.i
+.PHONY : add.cpp.i
+
+add.s: add.cpp.s
+
+.PHONY : add.s
+
+# target to generate assembly for a file
+add.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/add.cpp.s
+.PHONY : add.cpp.s
 
 bytecode.o: bytecode.cpp.o
 
@@ -420,6 +447,249 @@ memory.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/memory.cpp.s
 .PHONY : memory.cpp.s
 
+peekc.o: peekc.cpp.o
+
+.PHONY : peekc.o
+
+# target to build an object file
+peekc.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.o
+.PHONY : peekc.cpp.o
+
+peekc.i: peekc.cpp.i
+
+.PHONY : peekc.i
+
+# target to preprocess a source file
+peekc.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.i
+.PHONY : peekc.cpp.i
+
+peekc.s: peekc.cpp.s
+
+.PHONY : peekc.s
+
+# target to generate assembly for a file
+peekc.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.s
+.PHONY : peekc.cpp.s
+
+peekf.o: peekf.cpp.o
+
+.PHONY : peekf.o
+
+# target to build an object file
+peekf.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.o
+.PHONY : peekf.cpp.o
+
+peekf.i: peekf.cpp.i
+
+.PHONY : peekf.i
+
+# target to preprocess a source file
+peekf.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.i
+.PHONY : peekf.cpp.i
+
+peekf.s: peekf.cpp.s
+
+.PHONY : peekf.s
+
+# target to generate assembly for a file
+peekf.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.s
+.PHONY : peekf.cpp.s
+
+peeki.o: peeki.cpp.o
+
+.PHONY : peeki.o
+
+# target to build an object file
+peeki.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.o
+.PHONY : peeki.cpp.o
+
+peeki.i: peeki.cpp.i
+
+.PHONY : peeki.i
+
+# target to preprocess a source file
+peeki.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.i
+.PHONY : peeki.cpp.i
+
+peeki.s: peeki.cpp.s
+
+.PHONY : peeki.s
+
+# target to generate assembly for a file
+peeki.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.s
+.PHONY : peeki.cpp.s
+
+peeks.o: peeks.cpp.o
+
+.PHONY : peeks.o
+
+# target to build an object file
+peeks.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.o
+.PHONY : peeks.cpp.o
+
+peeks.i: peeks.cpp.i
+
+.PHONY : peeks.i
+
+# target to preprocess a source file
+peeks.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.i
+.PHONY : peeks.cpp.i
+
+peeks.s: peeks.cpp.s
+
+.PHONY : peeks.s
+
+# target to generate assembly for a file
+peeks.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.s
+.PHONY : peeks.cpp.s
+
+pokec.o: pokec.cpp.o
+
+.PHONY : pokec.o
+
+# target to build an object file
+pokec.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.o
+.PHONY : pokec.cpp.o
+
+pokec.i: pokec.cpp.i
+
+.PHONY : pokec.i
+
+# target to preprocess a source file
+pokec.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.i
+.PHONY : pokec.cpp.i
+
+pokec.s: pokec.cpp.s
+
+.PHONY : pokec.s
+
+# target to generate assembly for a file
+pokec.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.s
+.PHONY : pokec.cpp.s
+
+pokef.o: pokef.cpp.o
+
+.PHONY : pokef.o
+
+# target to build an object file
+pokef.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.o
+.PHONY : pokef.cpp.o
+
+pokef.i: pokef.cpp.i
+
+.PHONY : pokef.i
+
+# target to preprocess a source file
+pokef.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.i
+.PHONY : pokef.cpp.i
+
+pokef.s: pokef.cpp.s
+
+.PHONY : pokef.s
+
+# target to generate assembly for a file
+pokef.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.s
+.PHONY : pokef.cpp.s
+
+pokei.o: pokei.cpp.o
+
+.PHONY : pokei.o
+
+# target to build an object file
+pokei.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.o
+.PHONY : pokei.cpp.o
+
+pokei.i: pokei.cpp.i
+
+.PHONY : pokei.i
+
+# target to preprocess a source file
+pokei.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.i
+.PHONY : pokei.cpp.i
+
+pokei.s: pokei.cpp.s
+
+.PHONY : pokei.s
+
+# target to generate assembly for a file
+pokei.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.s
+.PHONY : pokei.cpp.s
+
+pokes.o: pokes.cpp.o
+
+.PHONY : pokes.o
+
+# target to build an object file
+pokes.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.o
+.PHONY : pokes.cpp.o
+
+pokes.i: pokes.cpp.i
+
+.PHONY : pokes.i
+
+# target to preprocess a source file
+pokes.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.i
+.PHONY : pokes.cpp.i
+
+pokes.s: pokes.cpp.s
+
+.PHONY : pokes.s
+
+# target to generate assembly for a file
+pokes.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.s
+.PHONY : pokes.cpp.s
+
+popa.o: popa.cpp.o
+
+.PHONY : popa.o
+
+# target to build an object file
+popa.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/popa.cpp.o
+.PHONY : popa.cpp.o
+
+popa.i: popa.cpp.i
+
+.PHONY : popa.i
+
+# target to preprocess a source file
+popa.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/popa.cpp.i
+.PHONY : popa.cpp.i
+
+popa.s: popa.cpp.s
+
+.PHONY : popa.s
+
+# target to generate assembly for a file
+popa.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/popa.cpp.s
+.PHONY : popa.cpp.s
+
 popm.o: popm.cpp.o
 
 .PHONY : popm.o
@@ -447,6 +717,33 @@ popm.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/popm.cpp.s
 .PHONY : popm.cpp.s
 
+popv.o: popv.cpp.o
+
+.PHONY : popv.o
+
+# target to build an object file
+popv.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/popv.cpp.o
+.PHONY : popv.cpp.o
+
+popv.i: popv.cpp.i
+
+.PHONY : popv.i
+
+# target to preprocess a source file
+popv.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/popv.cpp.i
+.PHONY : popv.cpp.i
+
+popv.s: popv.cpp.s
+
+.PHONY : popv.s
+
+# target to generate assembly for a file
+popv.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/popv.cpp.s
+.PHONY : popv.cpp.s
+
 pushc.o: pushc.cpp.o
 
 .PHONY : pushc.o
@@ -473,6 +770,60 @@ pushc.s: pushc.cpp.s
 pushc.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s
 .PHONY : pushc.cpp.s
+
+pushf.o: pushf.cpp.o
+
+.PHONY : pushf.o
+
+# target to build an object file
+pushf.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.o
+.PHONY : pushf.cpp.o
+
+pushf.i: pushf.cpp.i
+
+.PHONY : pushf.i
+
+# target to preprocess a source file
+pushf.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.i
+.PHONY : pushf.cpp.i
+
+pushf.s: pushf.cpp.s
+
+.PHONY : pushf.s
+
+# target to generate assembly for a file
+pushf.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.s
+.PHONY : pushf.cpp.s
+
+pushi.o: pushi.cpp.o
+
+.PHONY : pushi.o
+
+# target to build an object file
+pushi.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.o
+.PHONY : pushi.cpp.o
+
+pushi.i: pushi.cpp.i
+
+.PHONY : pushi.i
+
+# target to preprocess a source file
+pushi.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.i
+.PHONY : pushi.cpp.i
+
+pushi.s: pushi.cpp.s
+
+.PHONY : pushi.s
+
+# target to generate assembly for a file
+pushi.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.s
+.PHONY : pushi.cpp.s
 
 pushs.o: pushs.cpp.o
 
@@ -528,6 +879,87 @@ pushvc.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.s
 .PHONY : pushvc.cpp.s
 
+pushvf.o: pushvf.cpp.o
+
+.PHONY : pushvf.o
+
+# target to build an object file
+pushvf.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.o
+.PHONY : pushvf.cpp.o
+
+pushvf.i: pushvf.cpp.i
+
+.PHONY : pushvf.i
+
+# target to preprocess a source file
+pushvf.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.i
+.PHONY : pushvf.cpp.i
+
+pushvf.s: pushvf.cpp.s
+
+.PHONY : pushvf.s
+
+# target to generate assembly for a file
+pushvf.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.s
+.PHONY : pushvf.cpp.s
+
+pushvi.o: pushvi.cpp.o
+
+.PHONY : pushvi.o
+
+# target to build an object file
+pushvi.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.o
+.PHONY : pushvi.cpp.o
+
+pushvi.i: pushvi.cpp.i
+
+.PHONY : pushvi.i
+
+# target to preprocess a source file
+pushvi.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.i
+.PHONY : pushvi.cpp.i
+
+pushvi.s: pushvi.cpp.s
+
+.PHONY : pushvi.s
+
+# target to generate assembly for a file
+pushvi.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.s
+.PHONY : pushvi.cpp.s
+
+pushvs.o: pushvs.cpp.o
+
+.PHONY : pushvs.o
+
+# target to build an object file
+pushvs.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.o
+.PHONY : pushvs.cpp.o
+
+pushvs.i: pushvs.cpp.i
+
+.PHONY : pushvs.i
+
+# target to preprocess a source file
+pushvs.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.i
+.PHONY : pushvs.cpp.i
+
+pushvs.s: pushvs.cpp.s
+
+.PHONY : pushvs.s
+
+# target to generate assembly for a file
+pushvs.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.s
+.PHONY : pushvs.cpp.s
+
 ret.o: ret.cpp.o
 
 .PHONY : ret.o
@@ -582,6 +1014,33 @@ runTimeStack.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.s
 .PHONY : runTimeStack.cpp.s
 
+swp.o: swp.cpp.o
+
+.PHONY : swp.o
+
+# target to build an object file
+swp.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o
+.PHONY : swp.cpp.o
+
+swp.i: swp.cpp.i
+
+.PHONY : swp.i
+
+# target to preprocess a source file
+swp.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/swp.cpp.i
+.PHONY : swp.cpp.i
+
+swp.s: swp.cpp.s
+
+.PHONY : swp.s
+
+# target to generate assembly for a file
+swp.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/swp.cpp.s
+.PHONY : swp.cpp.s
+
 value.o: value.cpp.o
 
 .PHONY : value.o
@@ -618,6 +1077,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppProjectInterpreter"
+	@echo "... add.o"
+	@echo "... add.i"
+	@echo "... add.s"
 	@echo "... bytecode.o"
 	@echo "... bytecode.i"
 	@echo "... bytecode.s"
@@ -651,24 +1113,72 @@ help:
 	@echo "... memory.o"
 	@echo "... memory.i"
 	@echo "... memory.s"
+	@echo "... peekc.o"
+	@echo "... peekc.i"
+	@echo "... peekc.s"
+	@echo "... peekf.o"
+	@echo "... peekf.i"
+	@echo "... peekf.s"
+	@echo "... peeki.o"
+	@echo "... peeki.i"
+	@echo "... peeki.s"
+	@echo "... peeks.o"
+	@echo "... peeks.i"
+	@echo "... peeks.s"
+	@echo "... pokec.o"
+	@echo "... pokec.i"
+	@echo "... pokec.s"
+	@echo "... pokef.o"
+	@echo "... pokef.i"
+	@echo "... pokef.s"
+	@echo "... pokei.o"
+	@echo "... pokei.i"
+	@echo "... pokei.s"
+	@echo "... pokes.o"
+	@echo "... pokes.i"
+	@echo "... pokes.s"
+	@echo "... popa.o"
+	@echo "... popa.i"
+	@echo "... popa.s"
 	@echo "... popm.o"
 	@echo "... popm.i"
 	@echo "... popm.s"
+	@echo "... popv.o"
+	@echo "... popv.i"
+	@echo "... popv.s"
 	@echo "... pushc.o"
 	@echo "... pushc.i"
 	@echo "... pushc.s"
+	@echo "... pushf.o"
+	@echo "... pushf.i"
+	@echo "... pushf.s"
+	@echo "... pushi.o"
+	@echo "... pushi.i"
+	@echo "... pushi.s"
 	@echo "... pushs.o"
 	@echo "... pushs.i"
 	@echo "... pushs.s"
 	@echo "... pushvc.o"
 	@echo "... pushvc.i"
 	@echo "... pushvc.s"
+	@echo "... pushvf.o"
+	@echo "... pushvf.i"
+	@echo "... pushvf.s"
+	@echo "... pushvi.o"
+	@echo "... pushvi.i"
+	@echo "... pushvi.s"
+	@echo "... pushvs.o"
+	@echo "... pushvs.i"
+	@echo "... pushvs.s"
 	@echo "... ret.o"
 	@echo "... ret.i"
 	@echo "... ret.s"
 	@echo "... runTimeStack.o"
 	@echo "... runTimeStack.i"
 	@echo "... runTimeStack.s"
+	@echo "... swp.o"
+	@echo "... swp.i"
+	@echo "... swp.s"
 	@echo "... value.o"
 	@echo "... value.i"
 	@echo "... value.s"

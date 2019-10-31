@@ -8,8 +8,25 @@
 #include "ret.h"
 #include "pushc.h"
 #include "pushvc.h"
+#include "pushvs.h"
+#include "pushvi.h"
+#include "pushvf.h"
 #include "popm.h"
+#include "popa.h"
+#include "popv.h"
 #include "pushs.h"
+#include "pushi.h"
+#include "pushf.h"
+#include "peekc.h"
+#include "peeks.h"
+#include "peeki.h"
+#include "peekf.h"
+#include "pokec.h"
+#include "pokes.h"
+#include "pokei.h"
+#include "pokef.h"
+#include "swp.h"
+#include "add.h"
 
 #include <fstream>
 #include <map>
@@ -56,10 +73,42 @@ Interpreter::Interpreter (char* filename){
             memory.push_back(new Pushs());
         } else if ((short)var == 70) {
             memory.push_back(new Pushi());
+        } else if ((short)var == 71) {
+            memory.push_back(new Pushf());
         } else if ((short)var == 72) {
             memory.push_back(new Pushvc());
+        } else if ((short)var == 73) {
+            memory.push_back(new Pushvs());
+        } else if ((short)var == 74) {
+            memory.push_back(new Pushvi());
+        } else if ((short)var == 75) {
+            memory.push_back(new Pushvf());
         } else if ((short)var == 76) {
             memory.push_back(new Popm());
+        } else if ((short)var == 77) {
+            memory.push_back(new Popa()); //Not finished
+        } else if ((short)var == 80) {
+            memory.push_back(new Popv());
+        } else if ((short)var == 84) {
+            memory.push_back(new Peekc());
+        } else if ((short)var == 85) {
+            memory.push_back(new Peeks());
+        } else if ((short)var == 86) {
+            memory.push_back(new Peeki());
+        } else if ((short)var == 87) {
+            memory.push_back(new Peekf());
+        } else if ((short)var == 88) {
+            memory.push_back(new Pokec());
+        } else if ((short)var == 89) {
+            memory.push_back(new Pokes());
+        } else if ((short)var == 90) {
+            memory.push_back(new Pokei());
+        } else if ((short)var == 91) {
+            memory.push_back(new Pokef());
+        } else if ((short)var == 94) {
+            memory.push_back(new Swp());
+        } else if ((short)var == 100) {
+            memory.push_back(new Add()); //Not finished
         }
 
     }
