@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter
+CMAKE_SOURCE_DIR = /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -338,6 +338,33 @@ fpstack.s: fpstack.cpp.s
 fpstack.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.s
 .PHONY : fpstack.cpp.s
+
+halt.o: halt.cpp.o
+
+.PHONY : halt.o
+
+# target to build an object file
+halt.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/halt.cpp.o
+.PHONY : halt.cpp.o
+
+halt.i: halt.cpp.i
+
+.PHONY : halt.i
+
+# target to preprocess a source file
+halt.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/halt.cpp.i
+.PHONY : halt.cpp.i
+
+halt.s: halt.cpp.s
+
+.PHONY : halt.s
+
+# target to generate assembly for a file
+halt.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/halt.cpp.s
+.PHONY : halt.cpp.s
 
 interpreter.o: interpreter.cpp.o
 
@@ -798,6 +825,114 @@ popv.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/popv.cpp.s
 .PHONY : popv.cpp.s
 
+printc.o: printc.cpp.o
+
+.PHONY : printc.o
+
+# target to build an object file
+printc.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/printc.cpp.o
+.PHONY : printc.cpp.o
+
+printc.i: printc.cpp.i
+
+.PHONY : printc.i
+
+# target to preprocess a source file
+printc.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/printc.cpp.i
+.PHONY : printc.cpp.i
+
+printc.s: printc.cpp.s
+
+.PHONY : printc.s
+
+# target to generate assembly for a file
+printc.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/printc.cpp.s
+.PHONY : printc.cpp.s
+
+printf.o: printf.cpp.o
+
+.PHONY : printf.o
+
+# target to build an object file
+printf.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/printf.cpp.o
+.PHONY : printf.cpp.o
+
+printf.i: printf.cpp.i
+
+.PHONY : printf.i
+
+# target to preprocess a source file
+printf.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/printf.cpp.i
+.PHONY : printf.cpp.i
+
+printf.s: printf.cpp.s
+
+.PHONY : printf.s
+
+# target to generate assembly for a file
+printf.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/printf.cpp.s
+.PHONY : printf.cpp.s
+
+printi.o: printi.cpp.o
+
+.PHONY : printi.o
+
+# target to build an object file
+printi.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/printi.cpp.o
+.PHONY : printi.cpp.o
+
+printi.i: printi.cpp.i
+
+.PHONY : printi.i
+
+# target to preprocess a source file
+printi.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/printi.cpp.i
+.PHONY : printi.cpp.i
+
+printi.s: printi.cpp.s
+
+.PHONY : printi.s
+
+# target to generate assembly for a file
+printi.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/printi.cpp.s
+.PHONY : printi.cpp.s
+
+prints.o: prints.cpp.o
+
+.PHONY : prints.o
+
+# target to build an object file
+prints.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/prints.cpp.o
+.PHONY : prints.cpp.o
+
+prints.i: prints.cpp.i
+
+.PHONY : prints.i
+
+# target to preprocess a source file
+prints.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/prints.cpp.i
+.PHONY : prints.cpp.i
+
+prints.s: prints.cpp.s
+
+.PHONY : prints.s
+
+# target to generate assembly for a file
+prints.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/prints.cpp.s
+.PHONY : prints.cpp.s
+
 pushc.o: pushc.cpp.o
 
 .PHONY : pushc.o
@@ -1182,6 +1317,9 @@ help:
 	@echo "... fpstack.o"
 	@echo "... fpstack.i"
 	@echo "... fpstack.s"
+	@echo "... halt.o"
+	@echo "... halt.i"
+	@echo "... halt.s"
 	@echo "... interpreter.o"
 	@echo "... interpreter.i"
 	@echo "... interpreter.s"
@@ -1233,6 +1371,18 @@ help:
 	@echo "... popv.o"
 	@echo "... popv.i"
 	@echo "... popv.s"
+	@echo "... printc.o"
+	@echo "... printc.i"
+	@echo "... printc.s"
+	@echo "... printf.o"
+	@echo "... printf.i"
+	@echo "... printf.s"
+	@echo "... printi.o"
+	@echo "... printi.i"
+	@echo "... printi.s"
+	@echo "... prints.o"
+	@echo "... prints.i"
+	@echo "... prints.s"
 	@echo "... pushc.o"
 	@echo "... pushc.i"
 	@echo "... pushc.s"

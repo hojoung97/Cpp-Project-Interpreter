@@ -27,6 +27,14 @@
 #include "pokef.h"
 #include "swp.h"
 #include "add.h"
+#include "sub.h"
+#include "mul.h"
+#include "div.h"
+#include "printc.h"
+#include "prints.h"
+#include "printi.h"
+#include "printf.h"
+#include "halt.h"
 
 #include <fstream>
 #include <map>
@@ -108,9 +116,25 @@ Interpreter::Interpreter (char* filename){
         } else if ((short)var == 94) {
             memory.push_back(new Swp());
         } else if ((short)var == 100) {
-            memory.push_back(new Add()); //Not finished
+            memory.push_back(new Add());
+        } else if ((short)var == 104) {
+            memory.push_back(new Sub());
+        } else if ((short)var == 108) {
+            memory.push_back(new Mul());
+        } else if ((short)var == 112) {
+            memory.push_back(new Div());
+        } else if ((short)var == 144) {
+            memory.push_back(new Printc());
+        } else if ((short)var == 145) {
+            memory.push_back(new Prints());
+        } else if ((short)var == 146) {
+            memory.push_back(new Printi());
+        } else if ((short)var == 147) {
+            memory.push_back(new Printf());
+        } else if ((short)var == 0) {
+            memory.push_back(new Halt()); //Not finished
+            break;
         }
-
     }
     infile.close();
 }
