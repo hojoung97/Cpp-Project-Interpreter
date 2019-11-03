@@ -18,4 +18,23 @@ add_executable(CppProjectInterpreter main.cpp
         call.h call.cpp
         ret.h ret.cpp
         pushc.h pushc.cpp
-        pushvc.cpp pushvc.h popm.cpp popm.h pushs.cpp pushs.h pushi.h pushi.cpp pushf.h pushf.cpp pushvi.h pushvi.cpp pushvs.h pushvs.cpp pushvf.h pushvf.cpp popv.h popv.cpp popa.h popa.cpp peekc.h peekc.cpp peeks.h peeks.cpp peeki.h peeki.cpp peekf.h peekf.cpp pokec.h pokec.cpp pokes.h pokes.cpp pokei.h pokei.cpp pokef.h pokef.cpp swp.h swp.cpp add.h add.cpp)
+        pushvc.cpp pushvc.h
+        popm.cpp popm.h
+        pushs.cpp pushs.h
+        pushi.h pushi.cpp
+        pushf.h pushf.cpp
+        pushvi.h pushvi.cpp
+        pushvs.h pushvs.cpp
+        pushvf.h pushvf.cpp
+        popv.h popv.cpp
+        popa.h popa.cpp
+        peekc.h peekc.cpp
+        peeks.h peeks.cpp
+        peeki.h peeki.cpp
+        peekf.h peekf.cpp
+        pokec.h pokec.cpp
+        pokes.h pokes.cpp
+        pokei.h pokei.cpp
+        pokef.h pokef.cpp
+        swp.h swp.cpp
+        add.h add.cpp sub.cpp sub.h mul.cpp mul.h div.cpp div.h)

@@ -5,7 +5,7 @@
 #ifndef CPPPROJECTINTERPRETER_ADD_H
 #define CPPPROJECTINTERPRETER_ADD_H
 
-#include "Bytecode.h"
+#include "bytecode.h"
 
 class Add : public Bytecode{
 public:

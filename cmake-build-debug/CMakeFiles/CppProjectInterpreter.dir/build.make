@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter
+CMAKE_SOURCE_DIR = /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CppProjectInterpreter.dir/depend.make
@@ -59,458 +59,497 @@ include CMakeFiles/CppProjectInterpreter.dir/flags.make
 
 CMakeFiles/CppProjectInterpreter.dir/main.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/main.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/main.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/main.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/main.cpp > CMakeFiles/CppProjectInterpreter.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/main.cpp > CMakeFiles/CppProjectInterpreter.dir/main.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/main.cpp -o CMakeFiles/CppProjectInterpreter.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/main.cpp -o CMakeFiles/CppProjectInterpreter.dir/main.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o: ../interpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/interpreter.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/interpreter.cpp > CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/interpreter.cpp > CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/interpreter.cpp -o CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/interpreter.cpp -o CMakeFiles/CppProjectInterpreter.dir/interpreter.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.o: ../fpstack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/fpstack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/fpstack.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/fpstack.cpp > CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/fpstack.cpp > CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/fpstack.cpp -o CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/fpstack.cpp -o CMakeFiles/CppProjectInterpreter.dir/fpstack.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o: ../memory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/memory.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/memory.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/memory.cpp > CMakeFiles/CppProjectInterpreter.dir/memory.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/memory.cpp > CMakeFiles/CppProjectInterpreter.dir/memory.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/memory.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/memory.cpp -o CMakeFiles/CppProjectInterpreter.dir/memory.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/memory.cpp -o CMakeFiles/CppProjectInterpreter.dir/memory.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o: ../bytecode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/bytecode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/bytecode.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/bytecode.cpp > CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/bytecode.cpp > CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/bytecode.cpp -o CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/bytecode.cpp -o CMakeFiles/CppProjectInterpreter.dir/bytecode.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o: ../runTimeStack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/runTimeStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/runTimeStack.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/runTimeStack.cpp > CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/runTimeStack.cpp > CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/runTimeStack.cpp -o CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/runTimeStack.cpp -o CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/value.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/value.cpp.o: ../value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/value.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/value.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/value.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/value.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/value.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/value.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/value.cpp > CMakeFiles/CppProjectInterpreter.dir/value.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/value.cpp > CMakeFiles/CppProjectInterpreter.dir/value.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/value.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/value.cpp -o CMakeFiles/CppProjectInterpreter.dir/value.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/value.cpp -o CMakeFiles/CppProjectInterpreter.dir/value.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o: ../cmpe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmpe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmpe.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmpe.cpp > CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmpe.cpp > CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmpe.cpp -o CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmpe.cpp -o CMakeFiles/CppProjectInterpreter.dir/cmpe.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.o: ../cmplt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmplt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmplt.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmplt.cpp > CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmplt.cpp > CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmplt.cpp -o CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmplt.cpp -o CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.o: ../cmpgt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmpgt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmpgt.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmpgt.cpp > CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmpgt.cpp > CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmpgt.cpp -o CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmpgt.cpp -o CMakeFiles/CppProjectInterpreter.dir/cmpgt.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o: ../jmp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/jmp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/jmp.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/jmp.cpp > CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/jmp.cpp > CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/jmp.cpp -o CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/jmp.cpp -o CMakeFiles/CppProjectInterpreter.dir/jmp.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.o: ../jmpc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/jmpc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/jmpc.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/jmpc.cpp > CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/jmpc.cpp > CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/jmpc.cpp -o CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/jmpc.cpp -o CMakeFiles/CppProjectInterpreter.dir/jmpc.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/call.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/call.cpp.o: ../call.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/call.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/call.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/call.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/call.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/call.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/call.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/call.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/call.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/call.cpp > CMakeFiles/CppProjectInterpreter.dir/call.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/call.cpp > CMakeFiles/CppProjectInterpreter.dir/call.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/call.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/call.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/call.cpp -o CMakeFiles/CppProjectInterpreter.dir/call.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/call.cpp -o CMakeFiles/CppProjectInterpreter.dir/call.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/ret.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/ret.cpp.o: ../ret.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/ret.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/ret.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/ret.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/ret.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/ret.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/ret.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/ret.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/ret.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/ret.cpp > CMakeFiles/CppProjectInterpreter.dir/ret.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/ret.cpp > CMakeFiles/CppProjectInterpreter.dir/ret.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/ret.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/ret.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/ret.cpp -o CMakeFiles/CppProjectInterpreter.dir/ret.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/ret.cpp -o CMakeFiles/CppProjectInterpreter.dir/ret.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o: ../pushc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushc.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushc.cpp > CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushc.cpp > CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushc.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushc.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushc.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o: ../pushvc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvc.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvc.cpp > CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvc.cpp > CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvc.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvc.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushvc.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o: ../popm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/popm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/popm.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/popm.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/popm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/popm.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/popm.cpp > CMakeFiles/CppProjectInterpreter.dir/popm.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/popm.cpp > CMakeFiles/CppProjectInterpreter.dir/popm.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/popm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/popm.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/popm.cpp -o CMakeFiles/CppProjectInterpreter.dir/popm.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/popm.cpp -o CMakeFiles/CppProjectInterpreter.dir/popm.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.o: ../pushs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushs.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushs.cpp > CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushs.cpp > CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushs.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushs.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushs.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.o: ../pushi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushi.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushi.cpp > CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushi.cpp > CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushi.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushi.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushi.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.o: ../pushf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushf.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushf.cpp > CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushf.cpp > CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushf.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushf.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushf.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.o: ../pushvi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvi.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvi.cpp > CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvi.cpp > CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvi.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvi.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushvi.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.o: ../pushvs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvs.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvs.cpp > CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvs.cpp > CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvs.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvs.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushvs.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.o: ../pushvf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvf.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvf.cpp > CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvf.cpp > CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pushvf.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pushvf.cpp -o CMakeFiles/CppProjectInterpreter.dir/pushvf.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/popv.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/popv.cpp.o: ../popv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/popv.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/popv.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/popv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/popv.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/popv.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/popv.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/popv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/popv.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/popv.cpp > CMakeFiles/CppProjectInterpreter.dir/popv.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/popv.cpp > CMakeFiles/CppProjectInterpreter.dir/popv.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/popv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/popv.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/popv.cpp -o CMakeFiles/CppProjectInterpreter.dir/popv.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/popv.cpp -o CMakeFiles/CppProjectInterpreter.dir/popv.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/popa.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/popa.cpp.o: ../popa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/popa.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/popa.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/popa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/popa.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/popa.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/popa.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/popa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/popa.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/popa.cpp > CMakeFiles/CppProjectInterpreter.dir/popa.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/popa.cpp > CMakeFiles/CppProjectInterpreter.dir/popa.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/popa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/popa.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/popa.cpp -o CMakeFiles/CppProjectInterpreter.dir/popa.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/popa.cpp -o CMakeFiles/CppProjectInterpreter.dir/popa.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.o: ../peekc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peekc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peekc.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peekc.cpp > CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peekc.cpp > CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peekc.cpp -o CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peekc.cpp -o CMakeFiles/CppProjectInterpreter.dir/peekc.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.o: ../peeks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peeks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peeks.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peeks.cpp > CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peeks.cpp > CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peeks.cpp -o CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peeks.cpp -o CMakeFiles/CppProjectInterpreter.dir/peeks.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.o: ../peeki.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peeki.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peeki.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peeki.cpp > CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peeki.cpp > CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peeki.cpp -o CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peeki.cpp -o CMakeFiles/CppProjectInterpreter.dir/peeki.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.o: ../peekf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peekf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peekf.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peekf.cpp > CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peekf.cpp > CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/peekf.cpp -o CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/peekf.cpp -o CMakeFiles/CppProjectInterpreter.dir/peekf.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.o: ../pokec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokec.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokec.cpp > CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokec.cpp > CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokec.cpp -o CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokec.cpp -o CMakeFiles/CppProjectInterpreter.dir/pokec.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.o: ../pokes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokes.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokes.cpp > CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokes.cpp > CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokes.cpp -o CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokes.cpp -o CMakeFiles/CppProjectInterpreter.dir/pokes.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.o: ../pokei.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokei.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokei.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokei.cpp > CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokei.cpp > CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokei.cpp -o CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokei.cpp -o CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.o: ../pokef.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokef.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokef.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokef.cpp > CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokef.cpp > CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/pokef.cpp -o CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/pokef.cpp -o CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o: ../swp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/swp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/swp.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/swp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/swp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/swp.cpp > CMakeFiles/CppProjectInterpreter.dir/swp.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/swp.cpp > CMakeFiles/CppProjectInterpreter.dir/swp.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/swp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/swp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/swp.cpp -o CMakeFiles/CppProjectInterpreter.dir/swp.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/swp.cpp -o CMakeFiles/CppProjectInterpreter.dir/swp.cpp.s
 
 CMakeFiles/CppProjectInterpreter.dir/add.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
 CMakeFiles/CppProjectInterpreter.dir/add.cpp.o: ../add.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/add.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/add.cpp.o -c /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/add.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/add.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/add.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/add.cpp
 
 CMakeFiles/CppProjectInterpreter.dir/add.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/add.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/add.cpp > CMakeFiles/CppProjectInterpreter.dir/add.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/add.cpp > CMakeFiles/CppProjectInterpreter.dir/add.cpp.i
 
 CMakeFiles/CppProjectInterpreter.dir/add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/add.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/add.cpp -o CMakeFiles/CppProjectInterpreter.dir/add.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/add.cpp -o CMakeFiles/CppProjectInterpreter.dir/add.cpp.s
+
+CMakeFiles/CppProjectInterpreter.dir/sub.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
+CMakeFiles/CppProjectInterpreter.dir/sub.cpp.o: ../sub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/sub.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/sub.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/sub.cpp
+
+CMakeFiles/CppProjectInterpreter.dir/sub.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/sub.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/sub.cpp > CMakeFiles/CppProjectInterpreter.dir/sub.cpp.i
+
+CMakeFiles/CppProjectInterpreter.dir/sub.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/sub.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/sub.cpp -o CMakeFiles/CppProjectInterpreter.dir/sub.cpp.s
+
+CMakeFiles/CppProjectInterpreter.dir/mul.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
+CMakeFiles/CppProjectInterpreter.dir/mul.cpp.o: ../mul.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/mul.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/mul.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/mul.cpp
+
+CMakeFiles/CppProjectInterpreter.dir/mul.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/mul.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/mul.cpp > CMakeFiles/CppProjectInterpreter.dir/mul.cpp.i
+
+CMakeFiles/CppProjectInterpreter.dir/mul.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/mul.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/mul.cpp -o CMakeFiles/CppProjectInterpreter.dir/mul.cpp.s
+
+CMakeFiles/CppProjectInterpreter.dir/div.cpp.o: CMakeFiles/CppProjectInterpreter.dir/flags.make
+CMakeFiles/CppProjectInterpreter.dir/div.cpp.o: ../div.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/CppProjectInterpreter.dir/div.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppProjectInterpreter.dir/div.cpp.o -c /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/div.cpp
+
+CMakeFiles/CppProjectInterpreter.dir/div.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppProjectInterpreter.dir/div.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/div.cpp > CMakeFiles/CppProjectInterpreter.dir/div.cpp.i
+
+CMakeFiles/CppProjectInterpreter.dir/div.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppProjectInterpreter.dir/div.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/div.cpp -o CMakeFiles/CppProjectInterpreter.dir/div.cpp.s
 
 # Object files for target CppProjectInterpreter
 CppProjectInterpreter_OBJECTS = \
@@ -548,7 +587,10 @@ CppProjectInterpreter_OBJECTS = \
 "CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.o" \
 "CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.o" \
 "CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o" \
-"CMakeFiles/CppProjectInterpreter.dir/add.cpp.o"
+"CMakeFiles/CppProjectInterpreter.dir/add.cpp.o" \
+"CMakeFiles/CppProjectInterpreter.dir/sub.cpp.o" \
+"CMakeFiles/CppProjectInterpreter.dir/mul.cpp.o" \
+"CMakeFiles/CppProjectInterpreter.dir/div.cpp.o"
 
 # External object files for target CppProjectInterpreter
 CppProjectInterpreter_EXTERNAL_OBJECTS =
@@ -588,9 +630,12 @@ CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/pokei.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/pokef.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/add.cpp.o
+CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/sub.cpp.o
+CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/mul.cpp.o
+CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/div.cpp.o
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/build.make
 CppProjectInterpreter: CMakeFiles/CppProjectInterpreter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable CppProjectInterpreter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable CppProjectInterpreter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CppProjectInterpreter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -603,6 +648,6 @@ CMakeFiles/CppProjectInterpreter.dir/clean:
 .PHONY : CMakeFiles/CppProjectInterpreter.dir/clean
 
 CMakeFiles/CppProjectInterpreter.dir/depend:
-	cd /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles/CppProjectInterpreter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles/CppProjectInterpreter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CppProjectInterpreter.dir/depend
 

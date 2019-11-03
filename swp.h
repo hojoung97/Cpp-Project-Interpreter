@@ -5,7 +5,7 @@
 #ifndef CPPPROJECTINTERPRETER_SWP_H
 #define CPPPROJECTINTERPRETER_SWP_H
 
-#include "Bytecode.h"
+#include "bytecode.h"
 
 class Swp : public Bytecode{
 public:

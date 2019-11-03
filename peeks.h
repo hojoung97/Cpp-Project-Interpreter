@@ -5,7 +5,7 @@
 #ifndef CPPPROJECTINTERPRETER_PEEKS_H
 #define CPPPROJECTINTERPRETER_PEEKS_H
 
-#include "Bytecode.h"
+#include "bytecode.h"
 
 class Peeks : public Bytecode{
 public:

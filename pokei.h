@@ -5,7 +5,7 @@
 #ifndef CPPPROJECTINTERPRETER_POKEI_H
 #define CPPPROJECTINTERPRETER_POKEI_H
 
-#include "Bytecode.h"
+#include "bytecode.h"
 
 class Pokei : public Bytecode{
 public:

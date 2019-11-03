@@ -5,7 +5,7 @@
 #ifndef CPPPROJECTINTERPRETER_PEEKC_H
 #define CPPPROJECTINTERPRETER_PEEKC_H
 
-#include "Bytecode.h"
+#include "bytecode.h"
 
 class Peekc : public Bytecode{
 public:

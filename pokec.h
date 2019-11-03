@@ -5,7 +5,7 @@
 #ifndef CPPPROJECTINTERPRETER_POKEC_H
 #define CPPPROJECTINTERPRETER_POKEC_H
 
-#include "Bytecode.h"
+#include "bytecode.h"
 
 class Pokec : public Bytecode{
 public:

@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter
+CMAKE_SOURCE_DIR = /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yulheecho/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hojoungjang/CLionProjects/Cpp-Project-Interpreter/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -285,6 +285,33 @@ cmplt.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/cmplt.cpp.s
 .PHONY : cmplt.cpp.s
 
+div.o: div.cpp.o
+
+.PHONY : div.o
+
+# target to build an object file
+div.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/div.cpp.o
+.PHONY : div.cpp.o
+
+div.i: div.cpp.i
+
+.PHONY : div.i
+
+# target to preprocess a source file
+div.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/div.cpp.i
+.PHONY : div.cpp.i
+
+div.s: div.cpp.s
+
+.PHONY : div.s
+
+# target to generate assembly for a file
+div.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/div.cpp.s
+.PHONY : div.cpp.s
+
 fpstack.o: fpstack.cpp.o
 
 .PHONY : fpstack.o
@@ -446,6 +473,33 @@ memory.s: memory.cpp.s
 memory.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/memory.cpp.s
 .PHONY : memory.cpp.s
+
+mul.o: mul.cpp.o
+
+.PHONY : mul.o
+
+# target to build an object file
+mul.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/mul.cpp.o
+.PHONY : mul.cpp.o
+
+mul.i: mul.cpp.i
+
+.PHONY : mul.i
+
+# target to preprocess a source file
+mul.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/mul.cpp.i
+.PHONY : mul.cpp.i
+
+mul.s: mul.cpp.s
+
+.PHONY : mul.s
+
+# target to generate assembly for a file
+mul.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/mul.cpp.s
+.PHONY : mul.cpp.s
 
 peekc.o: peekc.cpp.o
 
@@ -1014,6 +1068,33 @@ runTimeStack.cpp.s:
 	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.s
 .PHONY : runTimeStack.cpp.s
 
+sub.o: sub.cpp.o
+
+.PHONY : sub.o
+
+# target to build an object file
+sub.cpp.o:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/sub.cpp.o
+.PHONY : sub.cpp.o
+
+sub.i: sub.cpp.i
+
+.PHONY : sub.i
+
+# target to preprocess a source file
+sub.cpp.i:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/sub.cpp.i
+.PHONY : sub.cpp.i
+
+sub.s: sub.cpp.s
+
+.PHONY : sub.s
+
+# target to generate assembly for a file
+sub.cpp.s:
+	$(MAKE) -f CMakeFiles/CppProjectInterpreter.dir/build.make CMakeFiles/CppProjectInterpreter.dir/sub.cpp.s
+.PHONY : sub.cpp.s
+
 swp.o: swp.cpp.o
 
 .PHONY : swp.o
@@ -1095,6 +1176,9 @@ help:
 	@echo "... cmplt.o"
 	@echo "... cmplt.i"
 	@echo "... cmplt.s"
+	@echo "... div.o"
+	@echo "... div.i"
+	@echo "... div.s"
 	@echo "... fpstack.o"
 	@echo "... fpstack.i"
 	@echo "... fpstack.s"
@@ -1113,6 +1197,9 @@ help:
 	@echo "... memory.o"
 	@echo "... memory.i"
 	@echo "... memory.s"
+	@echo "... mul.o"
+	@echo "... mul.i"
+	@echo "... mul.s"
 	@echo "... peekc.o"
 	@echo "... peekc.i"
 	@echo "... peekc.s"
@@ -1176,6 +1263,9 @@ help:
 	@echo "... runTimeStack.o"
 	@echo "... runTimeStack.i"
 	@echo "... runTimeStack.s"
+	@echo "... sub.o"
+	@echo "... sub.i"
+	@echo "... sub.s"
 	@echo "... swp.o"
 	@echo "... swp.i"
 	@echo "... swp.s"

@@ -5,7 +5,7 @@
 #ifndef CPPPROJECTINTERPRETER_POKES_H
 #define CPPPROJECTINTERPRETER_POKES_H
 
-#include "Bytecode.h"
+#include "bytecode.h"
 
 class Pokes : public Bytecode{
 public:

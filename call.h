@@ -5,7 +5,7 @@
 #ifndef CPPPROJECTINTERPRETER_CALL_H
 #define CPPPROJECTINTERPRETER_CALL_H
 
-#include "Bytecode.h"
+#include "bytecode.h"
 #include "runTimeStack.h"
 #include "fpstack.h"
 
