@@ -11,7 +11,7 @@ class Pokef : public Bytecode{
 public:
     Pokef();
     virtual ~Pokef();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_POKEF_H

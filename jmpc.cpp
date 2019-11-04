@@ -13,7 +13,7 @@ Jmpc::~Jmpc() {
 
 }
 
-void Jmpc::execute(Interpreter &interpreter) {
+int Jmpc::execute(Interpreter &interpreter) {
     if (interpreter.rstacks[interpreter.sp - 1]) {
         Interpreter::pc = interpreter.rstacks[interpreter.sp]->getInt();
     }

@@ -11,7 +11,7 @@ class Pokes : public Bytecode{
 public:
     Pokes();
     virtual ~Pokes();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_POKES_H

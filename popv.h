@@ -11,7 +11,7 @@ class Popv : public Bytecode {
 public:
     Popv();
     virtual ~Popv();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_POPV_H

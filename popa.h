@@ -11,7 +11,7 @@ class Popa : public Bytecode {
 public:
     Popa();
     virtual ~Popa();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_POPA_H

@@ -13,7 +13,7 @@ class Cmplt : public Bytecode{
 public:
     Cmplt();
     virtual ~Cmplt();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_CMPLT_H

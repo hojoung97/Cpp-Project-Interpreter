@@ -17,7 +17,7 @@ Cmplt::~Cmplt() {
 
 }
 
-void Cmplt::execute(Interpreter &interpreter) {
+int Cmplt::execute(Interpreter &interpreter) {
     Value* top1 = interpreter.rstacks[interpreter.sp - 1];
     Value* top2 = interpreter.rstacks[interpreter.sp];
 

@@ -11,7 +11,7 @@ class Pushvi : public Bytecode {
 public:
     Pushvi();
     virtual ~Pushvi();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PUSHVI_H

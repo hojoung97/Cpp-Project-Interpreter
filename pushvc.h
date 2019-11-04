@@ -12,7 +12,7 @@ class Pushvc : public Bytecode {
 public:
     Pushvc();
     virtual ~Pushvc();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 

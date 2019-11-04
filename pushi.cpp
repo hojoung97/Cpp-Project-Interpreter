@@ -10,7 +10,7 @@ Pushi::Pushi() {
 Pushi::~Pushi() {
 }
 
-void Pushi::execute(Interpreter &interpreter) {
+int Pushi::execute(Interpreter &interpreter) {
     int i = interpreter.memory[Interpreter::pc+1]->getInt() +
               (interpreter.memory[Interpreter::pc+2]->getInt()) * pow(2, 8) +
               (interpreter.memory[Interpreter::pc+3]->getInt()) * pow(3, 16) +

@@ -13,7 +13,7 @@ Jmp::~Jmp() {
 
 }
 
-void Jmp::execute(Interpreter &interpreter) {
+int Jmp::execute(Interpreter &interpreter) {
     Interpreter::pc = ((interpreter.rstacks)[interpreter.sp])->getInt();
     (interpreter.sp)--;
 }

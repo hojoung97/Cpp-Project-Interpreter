@@ -11,7 +11,7 @@ class Pokec : public Bytecode{
 public:
     Pokec();
     virtual ~Pokec();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_POKEC_H

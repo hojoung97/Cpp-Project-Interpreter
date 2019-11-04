@@ -11,7 +11,7 @@ class Peeki : public Bytecode{
 public:
     Peeki();
     virtual ~Peeki();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PEEKI_H

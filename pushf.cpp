@@ -13,7 +13,7 @@ Pushf::~Pushf() {
 
 }
 
-void Pushf::execute(Interpreter &interpreter) {
+int Pushf::execute(Interpreter &interpreter) {
     float f = interpreter.memory[Interpreter::pc+1]->getFloat() +
             (interpreter.memory[Interpreter::pc+2]->getFloat()) * pow(2, 8) +
             (interpreter.memory[Interpreter::pc+3]->getFloat()) * pow(3, 16) +

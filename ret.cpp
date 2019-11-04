@@ -13,7 +13,7 @@ Ret::~Ret() {
 
 }
 
-void Ret::execute(Interpreter &interpreter) {
+int Ret::execute(Interpreter &interpreter) {
     interpreter.sp = interpreter.fpstacks[(interpreter.fpsp)--]->val;
     Interpreter::pc = interpreter.rstacks[(interpreter.sp)--]->getInt();
 }

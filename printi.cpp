@@ -14,7 +14,7 @@ Printi::~Printi(){
 
 }
 
-void Printi::execute(Interpreter &interpreter) {
+int Printi::execute(Interpreter &interpreter) {
     int display = interpreter.rstacks[interpreter.sp--]->getInt();
 
     printf("%d\n", display);

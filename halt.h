@@ -11,7 +11,7 @@ class Halt : public Bytecode{
 public:
     Halt();
     virtual ~Halt();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_HALT_H

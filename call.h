@@ -13,7 +13,7 @@ class Call : public Bytecode{
 public:
     Call();
     virtual ~Call();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_CALL_H

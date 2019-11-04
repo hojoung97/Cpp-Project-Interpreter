@@ -14,7 +14,7 @@ Printf::~Printf(){
 
 }
 
-void Printf::execute(Interpreter &interpreter) {
+int Printf::execute(Interpreter &interpreter) {
     float display = interpreter.rstacks[interpreter.sp--]->getFloat();
 
     printf("%f\n", display);

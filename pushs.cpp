@@ -13,7 +13,7 @@ Pushs::~Pushs() {
 
 }
 
-void Pushs::execute(Interpreter &interpreter) {
+int Pushs::execute(Interpreter &interpreter) {
     short s = interpreter.memory[Interpreter::pc+1]->getShort() +
             (interpreter.memory[Interpreter::pc+2]->getShort()) * pow(2, 8);
 

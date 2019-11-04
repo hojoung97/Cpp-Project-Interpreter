@@ -11,7 +11,7 @@ class Printf : public Bytecode{
 public:
     Printf();
     virtual ~Printf();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PRINTF_H

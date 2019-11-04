@@ -13,7 +13,7 @@ class Ret : public Bytecode{
 public:
     Ret();
     virtual ~Ret();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_RET_H

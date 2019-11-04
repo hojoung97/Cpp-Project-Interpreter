@@ -13,7 +13,7 @@ class Pushs : public Bytecode{
 public:
     Pushs();
     virtual ~Pushs();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 
 };
 

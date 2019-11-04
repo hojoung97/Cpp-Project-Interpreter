@@ -12,7 +12,7 @@ Popv::~Popv() {
 
 }
 
-void Popv::execute(Interpreter &interpreter) {
+int Popv::execute(Interpreter &interpreter) {
     //modify the target(Not yet solved)
     interpreter.rstacks[interpreter.fpstacks[interpreter.fpsp]->val + interpreter.rstacks[interpreter.sp]->getInt() + 1] =
             interpreter.rstacks[interpreter.sp - 1];

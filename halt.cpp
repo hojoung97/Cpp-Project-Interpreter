@@ -12,7 +12,7 @@ Halt::~Halt(){
 
 }
 
-void Halt::execute(Interpreter &interpreter) {
+int Halt::execute(Interpreter &interpreter) {
     printf("pc: %d\n", interpreter.pc);
 
     printf("sp: %d\n", interpreter.sp);

@@ -13,7 +13,7 @@ class Cmpgt : public Bytecode{
 public:
     Cmpgt();
     virtual ~Cmpgt();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_CMPGT_H

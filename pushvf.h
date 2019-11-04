@@ -11,7 +11,7 @@ class Pushvf : public Bytecode {
 public:
     Pushvf();
     virtual ~Pushvf();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PUSHVF_H

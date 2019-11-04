@@ -13,7 +13,7 @@ class Jmpc : public Bytecode {
 public:
     Jmpc();
     virtual ~Jmpc();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_JMPC_H

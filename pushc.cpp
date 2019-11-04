@@ -13,7 +13,7 @@ Pushc::~Pushc() {
 
 }
 
-void Pushc::execute(Interpreter& interpreter) {
+int Pushc::execute(Interpreter& interpreter) {
     // new char value
     char newChar = static_cast<Value*>(interpreter.memory[Interpreter::pc + 1])->getChar();
     interpreter.rstacks[++(interpreter.sp)] = new Value(newChar);

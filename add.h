@@ -11,7 +11,7 @@ class Add : public Bytecode{
 public:
     Add();
     virtual ~Add();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_ADD_H

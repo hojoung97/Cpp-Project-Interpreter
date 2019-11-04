@@ -13,7 +13,7 @@ class Jmp : public Bytecode{
 public:
     Jmp();
     virtual ~Jmp();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_JMP_H

@@ -11,7 +11,7 @@ class Printi : public Bytecode{
 public:
     Printi();
     virtual ~Printi();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PRINTI_H

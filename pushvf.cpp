@@ -12,7 +12,7 @@ Pushvf::~Pushvf() {
 
 }
 
-void Pushvf::execute(Interpreter &interpreter) {
+int Pushvf::execute(Interpreter &interpreter) {
     int fpstackVal = interpreter.fpstacks[interpreter.fpsp]->val;
     int rstackVal = interpreter.rstacks[interpreter.sp]->getInt();
     float floatVal = interpreter.rstacks[fpstackVal + rstackVal + 1]->getFloat();

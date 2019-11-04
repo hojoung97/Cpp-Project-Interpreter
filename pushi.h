@@ -12,7 +12,7 @@ class Pushi : public Bytecode{
 public:
     Pushi();
     virtual ~Pushi();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PUSHI_H

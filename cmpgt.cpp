@@ -12,7 +12,7 @@ Cmpgt::~Cmpgt() {
 
 }
 
-void Cmpgt::execute(Interpreter &interpreter) {
+int Cmpgt::execute(Interpreter &interpreter) {
     Value* top1 = interpreter.rstacks[interpreter.sp - 1];
     Value* top2 = interpreter.rstacks[interpreter.sp];
 

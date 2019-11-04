@@ -11,7 +11,7 @@ class Sub : public Bytecode {
 public:
     Sub();
     virtual ~Sub();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 

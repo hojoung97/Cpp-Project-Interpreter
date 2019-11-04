@@ -11,7 +11,7 @@ class Swp : public Bytecode{
 public:
     Swp();
     virtual ~Swp();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_SWP_H

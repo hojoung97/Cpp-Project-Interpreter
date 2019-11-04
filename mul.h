@@ -12,7 +12,7 @@ class Mul : public Bytecode {
 public:
     Mul();
     virtual ~Mul();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 

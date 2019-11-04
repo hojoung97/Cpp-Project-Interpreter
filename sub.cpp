@@ -12,7 +12,7 @@ Sub::~Sub() {
 
 }
 
-void Sub::execute(Interpreter &interpreter) {
+int Sub::execute(Interpreter &interpreter) {
     if (!((interpreter.rstacks[interpreter.sp - 1])->dtype.compare("short"))){
         short val1 = interpreter.rstacks[interpreter.sp - 1]->getShort();
         short val2 = interpreter.rstacks[interpreter.sp]->getShort();

@@ -12,7 +12,7 @@ Add::~Add(){
 
 }
 
-void Add::execute(Interpreter &interpreter) {
+int Add::execute(Interpreter &interpreter) {
     if (!((interpreter.rstacks[interpreter.sp - 1])->dtype.compare("short"))){
         short val1 = interpreter.rstacks[interpreter.sp - 1]->getShort();
         short val2 = interpreter.rstacks[interpreter.sp]->getShort();
@@ -36,4 +36,5 @@ void Add::execute(Interpreter &interpreter) {
     }
 
     (interpreter.sp)--;
+    return 1;
 }

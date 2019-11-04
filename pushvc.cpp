@@ -12,7 +12,7 @@ Pushvc::~Pushvc() {
 
 }
 
-void Pushvc::execute(Interpreter &interpreter) {
+int Pushvc::execute(Interpreter &interpreter) {
     int fpstackVal = interpreter.fpstacks[interpreter.fpsp]->val;
     int rstackVal = interpreter.rstacks[interpreter.sp]->getInt();
     char charVal = interpreter.rstacks[fpstackVal + rstackVal + 1]->getChar();

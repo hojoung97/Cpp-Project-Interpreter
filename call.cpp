@@ -5,12 +5,6 @@
 #include "call.h"
 #include "interpreter.h"
 
-void Call::execute(Fpstack *fpStack, RunTimeStack *rStack){
-    fpStack->push(rStack->sp - rStack[rStack->sp] - 1);
-    rStack->sp--;
-    Interpreter::pc = rStack[rStack->sp--];
-}
-
 Call::Call() {
 
 }
@@ -19,7 +13,7 @@ Call::~Call() {
 
 }
 
-void Call::execute(Interpreter & interpreter) {
+int Call::execute(Interpreter & interpreter) {
     // Increment fpsp
     (interpreter.fpsp)++;
     // new frame pointer value
@@ -30,4 +24,5 @@ void Call::execute(Interpreter & interpreter) {
     (interpreter.sp)--;
     // Set pc
     Interpreter::pc = ((interpreter.rstacks)[(interpreter.sp)--])->getInt();
+    return ;
 }

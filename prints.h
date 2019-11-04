@@ -11,7 +11,7 @@ class Prints : public Bytecode{
 public:
     Prints();
     virtual ~Prints();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PRINTS_H

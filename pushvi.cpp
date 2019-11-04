@@ -12,7 +12,7 @@ Pushvi::~Pushvi() {
 
 }
 
-void Pushvi::execute(Interpreter &interpreter) {
+int Pushvi::execute(Interpreter &interpreter) {
     int fpstackVal = interpreter.fpstacks[interpreter.fpsp]->val;
     int rstackVal = interpreter.rstacks[interpreter.sp]->getInt();
     int intVal = interpreter.rstacks[fpstackVal + rstackVal + 1]->getInt();

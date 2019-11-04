@@ -13,7 +13,7 @@ class Pushc : public Bytecode{
 public:
     Pushc();
     virtual ~Pushc();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PUSHC_H

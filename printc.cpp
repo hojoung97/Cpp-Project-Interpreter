@@ -14,7 +14,7 @@ Printc::~Printc(){
 
 }
 
-void Printc::execute(Interpreter &interpreter) {
+int Printc::execute(Interpreter &interpreter) {
     char display = interpreter.rstacks[interpreter.sp--]->getChar();
 
     printf("%c\n", display);

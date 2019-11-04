@@ -11,7 +11,7 @@ class Pokei : public Bytecode{
 public:
     Pokei();
     virtual ~Pokei();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_POKEI_H

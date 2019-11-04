@@ -12,7 +12,7 @@ class Popm : public Bytecode {
 public:
     Popm();
     virtual ~Popm();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 

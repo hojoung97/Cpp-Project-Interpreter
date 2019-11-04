@@ -12,7 +12,7 @@ class Div : public Bytecode {
 public:
     Div();
     virtual ~Div();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 

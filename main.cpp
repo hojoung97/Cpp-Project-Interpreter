@@ -9,9 +9,9 @@ int main (){
     Interpreter interpreter(infile);
 
     int size = interpreter.memSize;
-    int i = 0;
-    while (i < size){
-        int incre = static_cast<Bytecode*>((interpreter.memory)[i])->execute(interpreter);
-        i += incre;
+
+    while (Interpreter::pc < size){
+        int incre = dynamic_cast<Bytecode*>((interpreter.memory)[Interpreter::pc])->execute(interpreter);
+        Interpreter::pc += incre;
     }
 }

@@ -12,7 +12,7 @@ class Pushf : public Bytecode{
 public:
     Pushf();
     virtual ~Pushf();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PUSHF_H

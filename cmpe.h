@@ -12,7 +12,7 @@ class Cmpe : public Bytecode{
 public:
     Cmpe();
     virtual ~Cmpe();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_CMPE_H

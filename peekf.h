@@ -11,7 +11,7 @@ class Peekf : public Bytecode{
 public:
     Peekf();
     virtual ~Peekf();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PEEKF_H

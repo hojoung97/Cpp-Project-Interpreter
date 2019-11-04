@@ -11,7 +11,7 @@ class Printc : public Bytecode{
 public:
     Printc();
     virtual ~Printc();
-    void execute(Interpreter&);
+    int execute(Interpreter&);
 };
 
 #endif //CPPPROJECTINTERPRETER_PRINTC_H

@@ -14,7 +14,7 @@ Cmpe::~Cmpe() {
 
 }
 
-void Cmpe::execute(Interpreter &interpreter) {
+int Cmpe::execute(Interpreter &interpreter) {
 
     Value* top1 = interpreter.rstacks[interpreter.sp - 1];
     Value* top2 = interpreter.rstacks[interpreter.sp];
