@@ -19,5 +19,5 @@ int Pushi::execute(Interpreter &interpreter) {
     interpreter.rstacks[++(interpreter.sp)] = new Value(i);
     Interpreter::pc += 5;
 
-    return 4;
+    return 0;
 }

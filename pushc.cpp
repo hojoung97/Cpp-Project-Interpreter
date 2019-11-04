@@ -15,9 +15,9 @@ Pushc::~Pushc() {
 
 int Pushc::execute(Interpreter& interpreter) {
     // new char value
-    char newChar = static_cast<Value*>(interpreter.memory[Interpreter::pc + 1])->getChar();
+    char newChar = (interpreter.memory[Interpreter::pc + 1])->getChar();
     interpreter.rstacks[++(interpreter.sp)] = new Value(newChar);
     Interpreter::pc += 2;
 
-    return 1;
+    return 0;
 }

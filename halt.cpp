@@ -13,12 +13,12 @@ Halt::~Halt(){
 }
 
 int Halt::execute(Interpreter &interpreter) {
-    printf("pc: %d\n", interpreter.pc);
+    std::cout << "pc: " << Interpreter::pc << std::endl;
 
-    printf("sp: %d\n", interpreter.sp);
+    std::cout << "sp: " << interpreter.sp << std::endl;
 
     if(interpreter.sp == -1){
-        printf("Rstack empty\n");
+        std::cout << "Rstack empty" << std::endl;
     } else{
         if (!((interpreter.rstacks[interpreter.sp - 1])->dtype.compare("short"))) {
             while (interpreter.sp != -1) {
@@ -53,5 +53,5 @@ int Halt::execute(Interpreter &interpreter) {
             interpreter.fpsp--;
         }
     }
-    return 0;
+    return -1;
 }

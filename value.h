@@ -13,10 +13,10 @@ class Value : public Memory, public RunTimeStack{
 // the only one value will be represented
 // everything else will be null
 private:
-    char* charVal;
-    short* shortVal;
-    int* intVal;
-    float* floatVal;
+    char charVal;
+    short shortVal;
+    int intVal;
+    float floatVal;
 
 public:
     Value(char);

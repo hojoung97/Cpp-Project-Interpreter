@@ -40,9 +40,9 @@
 #include <map>
 
 int Interpreter::pc = 0;
+int Interpreter::memSize = 0;
 Interpreter::Interpreter (char* filename){
     // size of memory
-    memSize = 0;
     sp = -1;
     fpsp = -1;
 
@@ -58,7 +58,8 @@ Interpreter::Interpreter (char* filename){
 
     // read input file
     while (!infile.eof()){
-        memSize++;
+        //std::cout << "memsize: " << Interpreter::memSize << std::endl;
+        Interpreter::memSize++;
         infile.read(&var, sizeof(char));
 
         if ((short)var == 132) {
@@ -79,18 +80,49 @@ Interpreter::Interpreter (char* filename){
             memory.push_back(new Pushc());
         } else if ((short)var == 69) {
             memory.push_back(new Pushs());
+            for (int i = 0; i < 2; i++) {
+                infile.read(&var, sizeof(char));
+                memory.push_back(new Value((int)var));
+                Interpreter::memSize++;
+            }
         } else if ((short)var == 70) {
             memory.push_back(new Pushi());
+            for (int i = 0; i < 4; i++) {
+                infile.read(&var, sizeof(char));
+                memory.push_back(new Value((int)var));
+                Interpreter::memSize++;
+            }
         } else if ((short)var == 71) {
             memory.push_back(new Pushf());
+            for (int i = 0; i < 4; i++) {
+                infile.read(&var, sizeof(char));
+                memory.push_back(new Value((int)var));
+                Interpreter::memSize++;
+            }
         } else if ((short)var == 72) {
             memory.push_back(new Pushvc());
         } else if ((short)var == 73) {
             memory.push_back(new Pushvs());
+            for (int i = 0; i < 2; i++) {
+                infile.read(&var, sizeof(char));
+                memory.push_back(new Value((int)var));
+                Interpreter::memSize++;
+            }
         } else if ((short)var == 74) {
             memory.push_back(new Pushvi());
+            infile.seekg(4, std::ios::cur);
+            for (int i = 0; i < 4; i++) {
+                infile.read(&var, sizeof(char));
+                memory.push_back(new Value((int)var));
+                Interpreter::memSize++;
+            }
         } else if ((short)var == 75) {
             memory.push_back(new Pushvf());
+            for (int i = 0; i < 4; i++) {
+                infile.read(&var, sizeof(char));
+                memory.push_back(new Value((int)var));
+                Interpreter::memSize++;
+            }
         } else if ((short)var == 76) {
             memory.push_back(new Popm());
         } else if ((short)var == 77) {
@@ -133,7 +165,6 @@ Interpreter::Interpreter (char* filename){
             memory.push_back(new Printf());
         } else if ((short)var == 0) {
             memory.push_back(new Halt()); //Not finished
-            break;
         }
     }
     infile.close();

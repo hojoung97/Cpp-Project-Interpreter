@@ -5,34 +5,22 @@
 #include "value.h"
 
 Value::Value(char value) {
-    *charVal = value;
-    shortVal = nullptr;
-    intVal = nullptr;
-    floatVal = nullptr;
+    charVal = value;
     dtype = "char";
 }
 
 Value::Value(short value) {
-    charVal = nullptr;
-    *shortVal = value;
-    intVal = nullptr;
-    floatVal = nullptr;
+    shortVal = value;
     dtype = "short";
 }
 
 Value::Value(int value) {
-    charVal = nullptr;
-    shortVal = nullptr;
-    *intVal = value;
-    floatVal = nullptr;
+    intVal = value;
     dtype = "int";
 }
 
 Value::Value(float value) {
-    charVal = nullptr;
-    shortVal = nullptr;
-    intVal = nullptr;
-    *floatVal = value;
+    floatVal = value;
     dtype = "float";
 }
 
@@ -45,17 +33,17 @@ void Value::execute() {
 }
 
 char Value::getChar() {
-    return *charVal;
+    return charVal;
 }
 
 short Value::getShort() {
-    return *shortVal;
+    return shortVal;
 }
 
 int Value::getInt() {
-    return *intVal;
+    return intVal;
 }
 
 float Value::getFloat() {
-    return *floatVal;
+    return floatVal;
 }

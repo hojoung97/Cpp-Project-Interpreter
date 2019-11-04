@@ -22,5 +22,5 @@ int Pushf::execute(Interpreter &interpreter) {
     interpreter.rstacks[++(interpreter.sp)] = new Value(f);
     Interpreter::pc += 5;
 
-    return 4;
+    return 0;
 }

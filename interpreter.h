@@ -9,7 +9,6 @@
 
 class Interpreter {
 public:
-    int memSize;       // size of memory
     int sp;         // stack pointer
     int fpsp;       // frame pointer stack pointer
     // Memory
@@ -24,6 +23,8 @@ public:
 
 	// Program Counter (points to memory)
     static int pc;
+    // memoey size
+    static int memSize;
 };
 
 

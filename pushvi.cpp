@@ -18,5 +18,5 @@ int Pushvi::execute(Interpreter &interpreter) {
     int intVal = interpreter.rstacks[fpstackVal + rstackVal + 1]->getInt();
     interpreter.rstacks[interpreter.sp] = new Value(intVal);
 
-    return 4;
+    return 5;
 }
