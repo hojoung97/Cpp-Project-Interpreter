@@ -5,6 +5,7 @@
 #include "memory.h"
 #include "runTimeStack.h"
 #include "fpstack.h"
+#include "value.h"
 
 class Interpreter {
 public:

@@ -145,12 +145,8 @@ CMakeFiles/CppProjectInterpreter.dir/main.cpp.o: ../memory.h
 CMakeFiles/CppProjectInterpreter.dir/main.cpp.o: ../runTimeStack.h
 CMakeFiles/CppProjectInterpreter.dir/main.cpp.o: ../value.h
 
-CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o: ../fpstack.h
-CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o: ../interpreter.h
 CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o: ../memory.cpp
 CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o: ../memory.h
-CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o: ../runTimeStack.h
-CMakeFiles/CppProjectInterpreter.dir/memory.cpp.o: ../value.h
 
 CMakeFiles/CppProjectInterpreter.dir/mul.cpp.o: ../bytecode.h
 CMakeFiles/CppProjectInterpreter.dir/mul.cpp.o: ../fpstack.h
@@ -377,12 +373,8 @@ CMakeFiles/CppProjectInterpreter.dir/ret.cpp.o: ../ret.h
 CMakeFiles/CppProjectInterpreter.dir/ret.cpp.o: ../runTimeStack.h
 CMakeFiles/CppProjectInterpreter.dir/ret.cpp.o: ../value.h
 
-CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o: ../fpstack.h
-CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o: ../interpreter.h
-CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o: ../memory.h
 CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o: ../runTimeStack.cpp
 CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o: ../runTimeStack.h
-CMakeFiles/CppProjectInterpreter.dir/runTimeStack.cpp.o: ../value.h
 
 CMakeFiles/CppProjectInterpreter.dir/sub.cpp.o: ../bytecode.h
 CMakeFiles/CppProjectInterpreter.dir/sub.cpp.o: ../fpstack.h
@@ -402,8 +394,6 @@ CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o: ../swp.cpp
 CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o: ../swp.h
 CMakeFiles/CppProjectInterpreter.dir/swp.cpp.o: ../value.h
 
-CMakeFiles/CppProjectInterpreter.dir/value.cpp.o: ../fpstack.h
-CMakeFiles/CppProjectInterpreter.dir/value.cpp.o: ../interpreter.h
 CMakeFiles/CppProjectInterpreter.dir/value.cpp.o: ../memory.h
 CMakeFiles/CppProjectInterpreter.dir/value.cpp.o: ../runTimeStack.h
 CMakeFiles/CppProjectInterpreter.dir/value.cpp.o: ../value.cpp

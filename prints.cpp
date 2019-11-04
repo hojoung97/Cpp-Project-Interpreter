@@ -17,7 +17,7 @@ Prints::~Prints(){
 int Prints::execute(Interpreter &interpreter) {
     short display = interpreter.rstacks[interpreter.sp--]->getShort();
 
-    printf("%s\n", display);
+    std::cout << display << std::endl;
 
     return 1;
 }

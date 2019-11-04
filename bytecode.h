@@ -7,6 +7,7 @@
 
 
 #include "memory.h"
+#include "interpreter.h"
 
 class Bytecode : public Memory {
 public:
