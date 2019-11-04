@@ -18,4 +18,6 @@ int Printf::execute(Interpreter &interpreter) {
     float display = interpreter.rstacks[interpreter.sp--]->getFloat();
 
     printf("%f\n", display);
+
+    return 1;
 }

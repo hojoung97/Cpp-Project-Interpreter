@@ -4,11 +4,6 @@
 
 #include "cmplt.h"
 
-void Cmplt::execute(Fpstack *fpStack, RunTimeStack *rStack){
-    rStack[rStack->sp - 1] = rStack[rStack->sp - 1] < rStack[rStack->sp];
-    rStack->sp--;
-}
-
 Cmplt::Cmplt() {
 
 }
@@ -57,4 +52,6 @@ int Cmplt::execute(Interpreter &interpreter) {
     }
 
     (interpreter.sp)--;
+
+    return 1;
 }

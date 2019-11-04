@@ -17,4 +17,6 @@ int Pushvs::execute(Interpreter &interpreter) {
     int rstackVal = interpreter.rstacks[interpreter.sp]->getInt();
     short shortVal = interpreter.rstacks[fpstackVal + rstackVal + 1]->getShort();
     interpreter.rstacks[interpreter.sp] = new Value(shortVal);
+
+    return 2;
 }

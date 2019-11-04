@@ -16,4 +16,6 @@ Ret::~Ret() {
 int Ret::execute(Interpreter &interpreter) {
     interpreter.sp = interpreter.fpstacks[(interpreter.fpsp)--]->val;
     Interpreter::pc = interpreter.rstacks[(interpreter.sp)--]->getInt();
+
+    return 1;
 }

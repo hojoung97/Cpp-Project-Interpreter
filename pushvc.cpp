@@ -17,4 +17,6 @@ int Pushvc::execute(Interpreter &interpreter) {
     int rstackVal = interpreter.rstacks[interpreter.sp]->getInt();
     char charVal = interpreter.rstacks[fpstackVal + rstackVal + 1]->getChar();
     interpreter.rstacks[interpreter.sp] = new Value(charVal);
+
+    return 1;
 }

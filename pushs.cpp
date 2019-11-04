@@ -19,4 +19,6 @@ int Pushs::execute(Interpreter &interpreter) {
 
     interpreter.rstacks[++(interpreter.sp)] = new Value(s);
     Interpreter::pc += 3;
+
+    return 2;
 }

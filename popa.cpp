@@ -20,4 +20,6 @@ int Popa::execute(Interpreter &interpreter) {
     }
 
     interpreter.sp = interpreter.fpstacks[interpreter.fpsp]->val + interpreter.rstacks[interpreter.sp]->getInt();
+
+    return 1;
 }

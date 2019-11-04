@@ -16,4 +16,6 @@ int Popm::execute(Interpreter &interpreter) {
     // Number of sp decrement
     int decre = ((interpreter.rstacks)[interpreter.sp])->getInt() + 1;
     interpreter.sp -= decre;
+
+    return 1;
 }

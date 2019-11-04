@@ -52,4 +52,6 @@ int Cmpgt::execute(Interpreter &interpreter) {
     }
 
     (interpreter.sp)--;
+
+    return 1;
 }

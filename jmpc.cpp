@@ -18,4 +18,6 @@ int Jmpc::execute(Interpreter &interpreter) {
         Interpreter::pc = interpreter.rstacks[interpreter.sp]->getInt();
     }
     interpreter.sp -= 2;
+
+    return 1;
 }

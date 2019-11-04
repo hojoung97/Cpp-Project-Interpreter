@@ -18,4 +18,6 @@ int Popv::execute(Interpreter &interpreter) {
             interpreter.rstacks[interpreter.sp - 1];
 
     interpreter.sp -= 2;
+
+    return 1;
 }

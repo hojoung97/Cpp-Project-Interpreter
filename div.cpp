@@ -11,7 +11,7 @@ Div::Div() {
 Div::~Div() {
 
 }
-how about char value
+//how about char value
 int Div::execute(Interpreter &interpreter) {
     if (!((interpreter.rstacks[interpreter.sp - 1])->dtype.compare("short"))){
         short val1 = interpreter.rstacks[interpreter.sp - 1]->getShort();
@@ -36,4 +36,6 @@ int Div::execute(Interpreter &interpreter) {
     }
 
     (interpreter.sp)--;
+
+    return 1;
 }

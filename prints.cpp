@@ -18,4 +18,6 @@ int Prints::execute(Interpreter &interpreter) {
     short display = interpreter.rstacks[interpreter.sp--]->getShort();
 
     printf("%s\n", display);
+
+    return 1;
 }

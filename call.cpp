@@ -24,5 +24,5 @@ int Call::execute(Interpreter & interpreter) {
     (interpreter.sp)--;
     // Set pc
     Interpreter::pc = ((interpreter.rstacks)[(interpreter.sp)--])->getInt();
-    return ;
+    return 1;
 }

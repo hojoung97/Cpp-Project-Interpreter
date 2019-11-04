@@ -55,4 +55,6 @@ int Cmpe::execute(Interpreter &interpreter) {
     }
 
     (interpreter.sp)--;
+
+    return 1;
 }

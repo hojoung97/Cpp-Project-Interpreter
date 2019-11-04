@@ -18,4 +18,6 @@ int Pushc::execute(Interpreter& interpreter) {
     char newChar = static_cast<Value*>(interpreter.memory[Interpreter::pc + 1])->getChar();
     interpreter.rstacks[++(interpreter.sp)] = new Value(newChar);
     Interpreter::pc += 2;
+
+    return 1;
 }
