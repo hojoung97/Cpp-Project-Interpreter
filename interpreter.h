@@ -18,7 +18,7 @@ public:
     // Frame Pointer Stack
     std::vector<Fpstack*> fpstacks;
 
-	Interpreter(char*);
+	Interpreter(std::string);
 	virtual ~Interpreter();
 
 	// Program Counter (points to memory)

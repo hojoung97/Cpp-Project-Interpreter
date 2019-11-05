@@ -7,21 +7,33 @@
 Value::Value(char value) {
     charVal = value;
     dtype = "char";
+    shortVal = 0;
+    intVal = 0;
+    floatVal = 0.f;
 }
 
 Value::Value(short value) {
     shortVal = value;
     dtype = "short";
+    charVal = '\0';
+    intVal = 0;
+    floatVal = 0.f;
 }
 
 Value::Value(int value) {
     intVal = value;
     dtype = "int";
+    charVal = '\0';
+    shortVal = 0;
+    floatVal = 0.f;
 }
 
 Value::Value(float value) {
     floatVal = value;
     dtype = "float";
+    charVal = '\0';
+    shortVal = 0;
+    intVal = 0;
 }
 
 Value::~Value() {

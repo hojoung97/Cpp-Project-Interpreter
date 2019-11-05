@@ -18,5 +18,5 @@ int Pushvf::execute(Interpreter &interpreter) {
     float floatVal = interpreter.rstacks[fpstackVal + rstackVal + 1]->getFloat();
     interpreter.rstacks[interpreter.sp] = new Value(floatVal);
 
-    return 5;
+    return 1;
 }

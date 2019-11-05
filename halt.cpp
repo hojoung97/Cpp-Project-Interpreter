@@ -13,43 +13,46 @@ Halt::~Halt(){
 }
 
 int Halt::execute(Interpreter &interpreter) {
+    std::cout << std::endl << "Compile values:" << std::endl;
     std::cout << "pc: " << Interpreter::pc << std::endl;
-
     std::cout << "sp: " << interpreter.sp << std::endl;
 
+    // Rstack info
+    std::cout << "rstack: ";
     if(interpreter.sp == -1){
-        std::cout << "Rstack empty" << std::endl;
+        std::cout << "empty" << std::endl;
     } else{
         if (!((interpreter.rstacks[interpreter.sp - 1])->dtype.compare("short"))) {
             while (interpreter.sp != -1) {
-                std::cout << "Current Rstack: " << interpreter.rstacks[interpreter.sp]->getShort() << std::endl;
+                std::cout << interpreter.rstacks[interpreter.sp]->getShort() << std::endl;
                 interpreter.sp--;
             }
         } else if(!((interpreter.rstacks[interpreter.sp - 1])->dtype.compare("char"))) {
             while (interpreter.sp != -1) {
-                std::cout << "Current Rstack: " << interpreter.rstacks[interpreter.sp]->getChar() << std::endl;
+                std::cout << interpreter.rstacks[interpreter.sp]->getChar() << std::endl;
                 interpreter.sp--;
             }
         } else if(!((interpreter.rstacks[interpreter.sp - 1])->dtype.compare("int"))) {
             while (interpreter.sp != -1) {
-                std::cout << "Current Rstack: " << interpreter.rstacks[interpreter.sp]->getInt() << std::endl;
+                std::cout << interpreter.rstacks[interpreter.sp]->getInt() << std::endl;
                 interpreter.sp--;
             }
         } else if(!((interpreter.rstacks[interpreter.sp - 1])->dtype.compare("float"))) {
             while (interpreter.sp != -1) {
-                std::cout << "Current Rstack: " << interpreter.rstacks[interpreter.sp]->getFloat() << std::endl;
+                std::cout << interpreter.rstacks[interpreter.sp]->getFloat() << std::endl;
                 interpreter.sp--;
             }
         }
     }
 
-    printf("fpsp: %d\n", interpreter.fpsp);
+    std::cout << "fpsp: " << interpreter.fpsp << std::endl;
 
+    std::cout << "fpstack: ";
     if(interpreter.fpsp == -1){
-        std::cout << "Fpstack empty" << std::endl;
+        std::cout << "empty" << std::endl;
     } else{
         while(interpreter.fpsp != -1){
-            std::cout << "Current Fpstack: " << interpreter.fpstacks[interpreter.fpsp]->val << std::endl;
+            std::cout << interpreter.fpstacks[interpreter.fpsp]->val << std::endl;
             interpreter.fpsp--;
         }
     }
