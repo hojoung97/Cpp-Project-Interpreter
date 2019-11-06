@@ -4,6 +4,7 @@
 
 #include <cmath>
 #include "pushf.h"
+#include <cstring>
 
 Pushf::Pushf() {
 
