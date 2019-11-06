@@ -51,7 +51,7 @@ Interpreter::Interpreter (std::string filename){
     char var;
 
     // Open the file
-    infile.open(filename, std::ios::binary);
+    infile.open(filename.c_str(), std::ios::binary);
     if (!infile.is_open()) {
         return;
     }
