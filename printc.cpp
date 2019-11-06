@@ -17,7 +17,7 @@ Printc::~Printc(){
 int Printc::execute(Interpreter &interpreter) {
     char display = interpreter.rstacks[interpreter.sp--]->getChar();
 
-    std::cout << display << std::endl;
+    std::cout << (int)display << std::endl;
 
     return 1;
 }

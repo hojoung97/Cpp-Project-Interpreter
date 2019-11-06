@@ -14,12 +14,16 @@ Pushf::~Pushf() {
 }
 
 int Pushf::execute(Interpreter &interpreter) {
-    float f = interpreter.memory[Interpreter::pc+1]->getFloat() +
-            (interpreter.memory[Interpreter::pc+2]->getFloat()) * pow(2, 8) +
-            (interpreter.memory[Interpreter::pc+3]->getFloat()) * pow(3, 16) +
-            (interpreter.memory[Interpreter::pc+3]->getFloat()) * pow(4, 24);
+    unsigned char byte1 = (unsigned char)(interpreter.memory[Interpreter::pc+1]->getChar());
+    unsigned char byte2 = (unsigned char)(interpreter.memory[Interpreter::pc+2]->getChar());
+    unsigned char byte3 = (unsigned char)(interpreter.memory[Interpreter::pc+3]->getChar());
+    unsigned char byte4 = (unsigned char)(interpreter.memory[Interpreter::pc+4]->getChar());
 
-    interpreter.rstacks[++(interpreter.sp)] = new Value(f);
+    unsigned char b[] = {byte1, byte2, byte3, byte4};
+    float newFloat;
+    memcpy(&newFloat, &b, sizeof(newFloat));
+
+    interpreter.rstacks[++(interpreter.sp)] = new Value(newFloat);
     Interpreter::pc += 5;
 
     return 0;

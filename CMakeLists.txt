@@ -37,4 +37,12 @@ add_executable(CppProjectInterpreter main.cpp
         pokei.h pokei.cpp
         pokef.h pokef.cpp
         swp.h swp.cpp
-        add.h add.cpp sub.cpp sub.h mul.cpp mul.h div.cpp div.h printc.h printc.cpp prints.h prints.cpp printi.h printi.cpp printf.h printf.cpp halt.h halt.cpp)
+        add.h add.cpp
+        sub.cpp sub.h
+        mul.cpp mul.h
+        div.cpp div.h
+        printc.h printc.cpp
+        prints.h prints.cpp
+        printi.h printi.cpp
+        printf.h printf.cpp
+        halt.h halt.cpp)

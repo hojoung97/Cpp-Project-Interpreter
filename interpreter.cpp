@@ -85,30 +85,27 @@ Interpreter::Interpreter (std::string filename){
             memory.push_back(new Pushc());
             infile.read(&var, sizeof(char));
             //std::cout << +var << std::endl;
-            memory.push_back(new Value(+var));
+            memory.push_back(new Value(var));
             Interpreter::memSize++;
         } else if (+(unsigned char)var == 69) {
             memory.push_back(new Pushs());
             for (int i = 0; i < 2; i++) {
                 infile.read(&var, sizeof(char));
-                //std::cout << +(unsigned char)var << std::endl;
-                memory.push_back(new Value((int)(+(unsigned char)var)));
+                memory.push_back(new Value(var));
                 Interpreter::memSize++;
             }
         } else if (+(unsigned char)var == 70) {
             memory.push_back(new Pushi());
             for (int i = 0; i < 4; i++) {
                 infile.read(&var, sizeof(char));
-                //std::cout << +(unsigned char)var << std::endl;
-                memory.push_back(new Value((int)(+(unsigned char)var)));
+                memory.push_back(new Value(var));
                 Interpreter::memSize++;
             }
         } else if (+(unsigned char)var == 71) {
             memory.push_back(new Pushf());
             for (int i = 0; i < 4; i++) {
                 infile.read(&var, sizeof(char));
-                //std::cout << +(unsigned char)var << std::endl;
-                memory.push_back(new Value((int)(+(unsigned char)var)));
+                memory.push_back(new Value(var));
                 Interpreter::memSize++;
             }
         } else if (+(unsigned char)var == 72) {

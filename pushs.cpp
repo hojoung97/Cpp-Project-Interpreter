@@ -14,8 +14,10 @@ Pushs::~Pushs() {
 }
 
 int Pushs::execute(Interpreter &interpreter) {
-    short s = interpreter.memory[Interpreter::pc+1]->getShort() +
-            (interpreter.memory[Interpreter::pc+2]->getShort()) * pow(2, 8);
+    unsigned char byte1 = (unsigned char)(interpreter.memory[Interpreter::pc+1]->getChar());
+    unsigned char byte2 = (unsigned char)(interpreter.memory[Interpreter::pc+2]->getChar());
+
+    short s = (short)byte1 + ((short)byte2) * pow(2, 8);
 
     interpreter.rstacks[++(interpreter.sp)] = new Value(s);
     Interpreter::pc += 3;
