@@ -33,7 +33,22 @@ int Popv::execute(Interpreter &interpreter) {
     }
     int fpstackVal = ((interpreter.fpstacks)[interpreter.fpsp])->val;
 
-    interpreter.rstacks[fpstackVal + rstackVal + 1] = interpreter.rstacks[interpreter.sp - 1];
+    if (((interpreter.rstacks)[interpreter.sp - 1])->dtype == "char") {
+        char newChar = ((interpreter.rstacks)[interpreter.sp - 1])->getChar();
+        interpreter.rstacks[fpstackVal + rstackVal + 1] = new Value(newChar);
+    }
+    else if (((interpreter.rstacks)[interpreter.sp - 1])->dtype == "short") {
+        short newShort = ((interpreter.rstacks)[interpreter.sp - 1])->getShort();
+        interpreter.rstacks[fpstackVal + rstackVal + 1] = new Value(newShort);
+    }
+    else if (((interpreter.rstacks)[interpreter.sp - 1])->dtype == "int") {
+        int newInt = ((interpreter.rstacks)[interpreter.sp - 1])->getInt();
+        interpreter.rstacks[fpstackVal + rstackVal + 1] = new Value(newInt);
+    }
+    else if (((interpreter.rstacks)[interpreter.sp - 1])->dtype == "float") {
+        float newFloat = ((interpreter.rstacks)[interpreter.sp - 1])->getFloat();
+        interpreter.rstacks[fpstackVal + rstackVal + 1] = new Value(newFloat);
+    }
 
     interpreter.sp -= 2;
 

@@ -56,7 +56,7 @@ int Popa::execute(Interpreter &interpreter) {
 
     }
 
-    interpreter.sp = interpreter.fpstacks[interpreter.fpsp]->val + rstackVal;
+    interpreter.sp = (interpreter.fpstacks[interpreter.fpsp]->val) + rstackVal;
 
     return 1;
 }

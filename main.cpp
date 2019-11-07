@@ -7,8 +7,12 @@ int main (int argc, char** argv) {
     std::string infile = argv[1];
 
     Interpreter interpreter(infile);
-    interpreter.rstacks.reserve(Interpreter::memSize);
-    interpreter.fpstacks.reserve(Interpreter::memSize);
+    for (int i = 0; i < Interpreter::memSize; i++) {
+        interpreter.rstacks.push_back(nullptr);
+        interpreter.fpstacks.push_back(nullptr);
+    }
+    //interpreter.rstacks.reserve(Interpreter::memSize);
+    //interpreter.fpstacks.reserve(Interpreter::memSize);
 
     int size = Interpreter::memSize;
     //std::cout << "starting pc: " << Interpreter::pc << std::endl;
