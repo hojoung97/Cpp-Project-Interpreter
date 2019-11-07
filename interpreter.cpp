@@ -164,10 +164,5 @@ Interpreter::Interpreter (std::string filename){
 }
 
 Interpreter::~Interpreter(){
-    for (int i = 0; i < Interpreter::memSize; i++) {
-        delete(memory[i]);
-        delete(rstacks[i]);
-        delete(fpstacks[i]);
-    }
 }
 
