@@ -164,5 +164,6 @@ Interpreter::Interpreter (std::string filename){
 }
 
 Interpreter::~Interpreter(){
+
 }
 
