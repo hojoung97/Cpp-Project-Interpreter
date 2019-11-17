@@ -5,6 +5,7 @@ Although this project does not have an application to practical problem, it demo
 
 ### Contributors
 Hojoung Jang - BS Computer Engineering 2021
+
 Yul Hee Cho - BS Computer Engineering 2021
 
 ### Contents
@@ -12,14 +13,11 @@ Yul Hee Cho - BS Computer Engineering 2021
 contains all the .h header and .cpp source files
 #### interpreter
 the interpreter executable
-
 ### How to Run
 ./interpreter *input binary file name (.smp)*
 #### Input
 A binary file (usually with .smp file extension) containing the byte code instructions
-
 #### Output
 Currently, output is set to be printed to standard out
-
 ### Instructions Supported
 There are too many so I will try to update them later... (coming soon)
