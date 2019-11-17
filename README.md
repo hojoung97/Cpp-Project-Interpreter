@@ -17,8 +17,8 @@ the interpreter executable
 
 ### How to Run
 ./interpreter *input binary file name (.smp)*
-- Input: A binary file (usually with .smp file extension) containing the byte code instructions
-- Output: Currently, output is set to be printed to standard out
+- Input: a binary file (usually with .smp file extension) containing the byte code instructions
+- Output: currently, output is set to be printed to standard out
 
 ### Instructions Supported
 There are too many so I will try to update them later... (coming soon)
